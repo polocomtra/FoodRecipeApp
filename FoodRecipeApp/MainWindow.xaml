@@ -5,8 +5,66 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FoodRecipeApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        Title="FoodRecipe" Height="600" Width="1024" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None"> 
+    <Grid Background="#FFEEEEEE" MouseDown="Grid_MouseDown">
+        <StackPanel VerticalAlignment="Top">
+            <Grid Background="#FF8C00" Height="30" >
+                <TextBlock Text="Food Recipes" FontSize="16"  Foreground="#e6e6e6" Padding="10 5 "></TextBlock>
+                <StackPanel HorizontalAlignment="Right" Orientation="Horizontal" Margin="10 0">
+                    <Button x:Name="exitBtn" Width="30" Height="30" Background="{x:Null}" FontWeight="Bold" BorderBrush="{x:Null}" Padding="0" Foreground="#FFFFFF" Margin="0 0 10 0" Click="exitBtn_Click">
+                        <materialDesign:PackIcon Kind="PowerStandby" />
+                    </Button>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+        <Grid Margin="255 35 0 0">
+            <Grid x:Name="MainGrid" VerticalAlignment="Center" HorizontalAlignment="Center"></Grid>
+        </Grid>
+        <Grid VerticalAlignment="Top" Panel.ZIndex="1000" HorizontalAlignment="Left" Width="250" Height="100" Margin="0 50">
+            <StackPanel Orientation="Horizontal">
+                <materialDesign:PackIcon Kind="Search" Width="30" Height="30" VerticalAlignment="Center" Margin="5" />
+                <!--<TextBlock Text="Home" FontSize="17" VerticalAlignment="Center" FontWeight="Bold" Margin="20 0"></TextBlock>-->
+                <TextBox BorderThickness="1" Width="200" Height="30" BorderBrush="Gray"></TextBox>
+            </StackPanel>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Background="#d9d9d9" Width="250" Margin="0 30 0 0">
+            <materialDesign:TransitioningContent x:Name="TransitionContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft,Duration=0:0:0.2}">
+                <Grid x:Name="GridCursor" Margin="0 150 0 0" Width="10" Background="#FF8C00" HorizontalAlignment="Left" Height="60" VerticalAlignment="Top"></Grid>
+            </materialDesign:TransitioningContent>
+            <ListView x:Name="ListViewMenu" Margin="0 150" FontSize="18" SelectionChanged="ListViewMenu_SelectionChanged" SelectedIndex="0">
+                <ListViewItem Height="60">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="HomeOutline" Width="30" Height="30" VerticalAlignment="Center" Margin="5" />
+                        <TextBlock Text="Home" FontSize="17" VerticalAlignment="Center" FontWeight="Bold" Margin="20 0"></TextBlock>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Height="60">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="HeartsOutline" Width="30" Height="30" VerticalAlignment="Center" Margin="5" />
+                        <TextBlock Text="Favorite" FontSize="17" VerticalAlignment="Center" FontWeight="Bold" Margin="20 0"></TextBlock>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Height="60">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="Add" Width="30" Height="30" VerticalAlignment="Center" Margin="5" />
+                        <TextBlock Text="Add Recipe" FontSize="17" VerticalAlignment="Center" FontWeight="Bold" Margin="20 0"></TextBlock>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Height="60">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="FormatListBulleted" Width="30" Height="30" VerticalAlignment="Center" Margin="5" />
+                        <TextBlock Text="Detail" FontSize="17" VerticalAlignment="Center" FontWeight="Bold" Margin="20 0"></TextBlock>
+                    </StackPanel>
+                </ListViewItem>
+            </ListView>
+        </Grid>
     </Grid>
 </Window>

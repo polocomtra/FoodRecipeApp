@@ -24,5 +24,26 @@ namespace FoodRecipeApp
         {
             InitializeComponent();
         }
+
+        private void Grid_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            DragMove();
+        }
+
+        private void exitBtn_Click(object sender, RoutedEventArgs e)
+        {
+            App.Current.Shutdown();
+        }
+
+        private void ListViewMenu_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            int index = ListViewMenu.SelectedIndex;
+            MoveCursorMenu(index);
+        }
+        private void MoveCursorMenu(int index)
+        {
+            TransitionContentSlide.OnApplyTemplate();
+            GridCursor.Margin = new Thickness(0, (150 + (60 * index)), 0, 0);
+        }
     }
 }
