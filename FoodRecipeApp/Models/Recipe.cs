@@ -3,21 +3,22 @@ using System.Windows.Media.Imaging;
 
 namespace FoodRecipeApp.Models
 {
-    class Recipe
+    public class Recipe
     {
         public int ID { get; set; }
         public bool IsFavorite { get; set; }
         public string Description { get; set; }
         public string Name { get; set; }
+        public string Image { get; set; }
 
         public BitmapImage Image { get; set; }
 
         public List<Direction> Directions;
-        public List<Ingredient> Ingredients;
+        public List<string> Ingredients;
 
         public override string ToString()
         {
-            return $"Recipe: ID-'{ID}' Name-'{Name}' IsFav-{IsFavorite}";
+            return $"ID-'{ID}' Name-'{Name}' Image-'{Image}' IsFav-{IsFavorite}";
         }
     }
 }

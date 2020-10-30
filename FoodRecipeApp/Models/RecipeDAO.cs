@@ -1,152 +1,77 @@
-﻿using MySql.Data.MySqlClient;
+﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 
 namespace FoodRecipeApp.Models
 {
     class RecipeDAO
     {
+        private static string ReadFile()
+        {
+            string filepath = AppDomain.CurrentDomain.BaseDirectory + "data.json";
+            string result = File.ReadAllText(filepath);
+            return result;
+        }
         public static List<Recipe> GetAll()
         {
-            List<Recipe> result = Select("select * from recipe");
+            var result = new List<Recipe>();
+            string jsonString = ReadFile();
+            result = JsonConvert.DeserializeObject<List<Recipe>>(jsonString) ?? new List<Recipe>();
             return result;
         }
 
-        public static List<Recipe> Select(string query)
+        public static bool Save(List<Recipe> recipe)
         {
-            List<Recipe> result = new List<Recipe>();
-            using (MySqlConnection connection = new MySqlConnection(DBConnector.ConnectionString))
+            var result = false;
+            try
             {
-                connection.Open();
-                MySqlCommand command = new MySqlCommand(query, connection);
-                MySqlDataReader reader = command.ExecuteReader();
-                while (reader.Read())
-                {
-                    Recipe recipe = Parse(reader);
-                    result.Add(recipe);
-                }
-            }
-            foreach(Recipe recipe in result) {
-                recipe.Directions = DirectionDAO.SelectByRecipeID(recipe.ID);
-                recipe.Ingredients = IngredientDAO.SelectByRecipeID(recipe.ID);
+                string jsonString = JsonConvert.SerializeObject(recipe, Formatting.Indented);
+                File.WriteAllText(AppDomain.CurrentDomain.BaseDirectory + "data.json", jsonString);
+                result = true;
+            }catch (Exception e)
+            {
+                Debug.WriteLine(e.StackTrace);
             }
             return result;
         }
-
-        public static Recipe Parse(MySqlDataReader reader)
+        public static bool Insert(Recipe recipe)
         {
-            Recipe recipe = new Recipe();
-            recipe.ID = reader.GetInt32(0);
-            recipe.Name = reader.GetString(1);
-            recipe.Description = reader.GetString(2);
-            recipe.IsFavorite = reader.GetBoolean(3);
-            return recipe;
-        }
-
-        public static int Insert(Recipe recipe)
-        {
-            int result = 0;
-            int id = 0;
-            using (MySqlConnection connection = new MySqlConnection(DBConnector.ConnectionString))
+            var result = false;
+            var oldID = recipe.ID;
+            var list = GetAll();
+            recipe.ID = list.Count == 0 ? 0 : list[list.Count - 1].ID + 1;
+            list.Add(recipe);
+            result = Save(list);
+            if (!result)
             {
-                connection.Open();
-                string query = "insert into recipe(name, description, isfavorite) values (@name, @description, @isfavorite)";
-                MySqlCommand command = new MySqlCommand(query, connection);
-                command.Parameters.Add("@name", MySqlDbType.String).Value = recipe.Name;
-                command.Parameters.Add("@description", MySqlDbType.String).Value = recipe.Description;
-                command.Parameters.Add("@isfavorite", MySqlDbType.Byte).Value = recipe.IsFavorite;
-                Debug.WriteLine(recipe.Name.Length);
-                Debug.WriteLine(recipe.Description.Length);
-                try
-                {
-                    result = command.ExecuteNonQuery();
-                    id = (int)command.LastInsertedId;
-                }
-                catch (Exception e)
-                {
-                    Debug.WriteLine(e.StackTrace);
-                }
+                recipe.ID = oldID;
             }
-
-            Insert(id, recipe.Directions, recipe.Ingredients);
             return result;
-        }
-
-        private static void Insert(int id, List<Direction> directions, List<Ingredient> ingredients) {
-            if (id != 0)
-            {
-                foreach (Direction direction in directions)
-                {
-                    direction.RecipeID = id;
-                    DirectionDAO.Insert(direction);
-                }
-                foreach (Ingredient ingredient in ingredients)
-                {
-                    ingredient.RecipeID = id;
-                    IngredientDAO.Insert(ingredient);
-                }
-            }
         }
 
         public static int Delete(int id)
         {
             int result = 0;
-
-            DirectionDAO.DeleteByRecipeID(id);
-            IngredientDAO.DeleteByRecipeID(id);
-
-            using (MySqlConnection connection = new MySqlConnection(DBConnector.ConnectionString))
-            {
-                connection.Open();
-                string query = "delete from recipe where id = @id";
-                MySqlCommand command = new MySqlCommand(query, connection);
-                command.Parameters.Add("@id", MySqlDbType.Int32).Value = id;
-
-                try
-                {
-                    result = command.ExecuteNonQuery();
-                }
-                catch (Exception e)
-                {
-                    Debug.WriteLine(e.StackTrace);
-                }
-            }
+            var list = GetAll();
+            result = list.RemoveAll(e => e.ID == id);
+            Save(list);
             return result;
         }
 
-        public static int Update(Recipe recipe)
+        public static bool Update(Recipe recipe)
         {
-            int result = 0;
-            using (MySqlConnection connection = new MySqlConnection(DBConnector.ConnectionString))
+            var result = false;
+            var list = GetAll();
+            var oldRecipeIndex = list.FindIndex(e => e.ID == recipe.ID);
+            
+            if (oldRecipeIndex >= 0 && oldRecipeIndex < list.Count)
             {
-                connection.Open();
-                string query = "update recipe "
-                    + @" name = @name, description = @description, isfavorite = @isfavorite"
-                    + @" where id = @id ";
-                MySqlCommand command = new MySqlCommand(query, connection);
-                command.Parameters.Add("@name", MySqlDbType.String).Value = recipe.Name;
-                command.Parameters.Add("@description", MySqlDbType.String).Value = recipe.Description;
-                command.Parameters.Add("@isfavorite", MySqlDbType.Byte).Value = recipe.IsFavorite;
+                list[oldRecipeIndex] = recipe;
+                result = Save(list);
+            }
 
-                try
-                {
-                    result = command.ExecuteNonQuery();
-                }
-                catch (Exception e)
-                {
-                    Debug.WriteLine(e.Message);
-                    Debug.WriteLine(e.StackTrace);
-                }
-            }
-            foreach (Direction direction in recipe.Directions)
-            {
-                DirectionDAO.Update(direction);
-            }
-            foreach (Ingredient ingredient in recipe.Ingredients)
-            {
-                IngredientDAO.Update(ingredient);
-            }
             return result;
         }
     }
