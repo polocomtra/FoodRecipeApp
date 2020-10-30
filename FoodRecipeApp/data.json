@@ -1,0 +1,1362 @@
+[
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bí đỏ đem hấp chín rồi đem tán nhuyễn. Cho bí đỏ, kem tươi, sữa, trứng, đường, bột mì đa dụng, bột bánh mì, men và muối vào thố rồi trộn đều. Dùng máy trộn bột bật máy trộn sang chế độ thấp nhất và để máy trộn khoảng 15 phút. Nếu bạn nhào bột bằng tay, thì nhào thêm 10 phút nữa là được"
+      },
+      {
+        "ImageName": "step_2_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Đậy thố bột bằng khăn ướt để bột nghỉ khoảng 1 giờ hoặc đến khi bột nở gấp 1,5 so với kích thước ban đầu. huẩn bị khuôn chữ nhật, chống dính cho khuôn bằng cách quết 1 lớp bơ mỏng. Sau đó, lấy khối bột ra nhào thêm 5 phút nữa để xẹp các bóng khí. Rồi chia bột ra thành 16 viên bằng nhau và vo tròn lại, xếp đều vào khuôn."
+      },
+      {
+        "ImageName": "step_3_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Dùng khăn đậy khuôn bánh lại để bánh nghỉ khoảng 1 giờ nữa bánh sẽ nở khoảng 1,5 lần so với kích thước ban đầu. Tiếp đó, dùng 1 quả trứng đánh tan với 1 muỗng cà phê nước rồi dùng cọ quét lên mặt bánh, rồi rắc hạt bí đỏ lên trên. Làm nóng lò ở nhiệt độ 350 độ F. Đặt khuôn bánh vào lò nướng trong khoảng 16-18 phút là bánh chín vàng đều. Sau đó, lấy bánh ra và quét lên bánh 1 lớp nước đường (2 muỗng cà phê đường hòa tan với 2 muỗng cà phê nước nóng: quét lên bánh sau khi nướng xong) để tăng hương vị và màu sắc cho bánh."
+      },
+      {
+        "ImageName": "step_4_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành."
+      }
+    ],
+    "Ingredients": [
+      "Bí đỏ 120 Gr",
+      "Kem sữa tươi 158 ml",
+      "Sữa tươi 75 ml",
+      "Trứng gà 1 Quả",
+      "Đường trắng 115 Gr",
+      "Bột mì 500 Gr",
+      "Bột mì 70 Gr",
+      "Men nở 11 Gr",
+      "Muối 7 Gr",
+      "Hạt bí 100 Gr"
+    ],
+    "ID": 0,
+    "IsFavorite": true,
+    "Description": "Bánh mì bí đỏ ăn ngon nhất khi vẫn còn nóng ấm, bánh mì thơm mềm quyện hương bí đỏ ngọt ngào. Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành. Với cách làm đơn giản này, bữa sáng của gia đình bạn sẽ trở nên phong phú, chất lượng hơn nhiều.",
+    "Name": "Bánh Mì Bí Đỏ Thơm Ngon",
+    "Image": "banh_mi_bi_do.jpg"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_1.png",
+        "VideoURL": "",
+        "Instruction": "Đậu hũ trắng cắt miếng vừa ăn. Xúc xích bò cắt lát mỏng xéo. Thịt nguội thái lát. (Có thể thêm thịt ba chỉ thái lát mỏng nếu thích). Hành boa rô cắt lát xéo. Thịt bò bằm nhỏ."
+      },
+      {
+        "ImageName": "step_2_1.png",
+        "VideoURL": "",
+        "Instruction": "Xếp xúc xích, thịt nguội, hành tây, kim chi, đậu hũ, thịt bò bằm vào nồi. Thêm hỗn hợp gia vị lên trên. Thêm nước dùng hầm xương vào, đun sôi khoảng 5 phút. Nêm muối và tiêu cho vừa ăn. Thêm một miếng phô mai lên trên. Thêm hành boa rô lên. Khi ăn múc ra chén, dùng nóng."
+      },
+      {
+        "ImageName": "step_3_1.png",
+        "VideoURL": "",
+        "Instruction": "Món lẩu có thể ăn cùng mì tôm hoặc cơm đều ngon. Vị cay thơm đặc trưng của lẩu thích hợp dùng trong những ngày trời trở lạnh nhé!"
+      }
+    ],
+    "Ingredients": [
+      "Kim chi cải thảo 300 Gr",
+      "Phô mai lá 1 Miếng",
+      "Xúc xích bò 4 Cây",
+      "Thịt bò 100 Gr",
+      "Đậu hũ trắng 1/2 Miếng",
+      "Bánh gạo 50 Gr",
+      "Hành tây 1/3 Củ",
+      "Thịt nguội 100 Gr",
+      "Mì tôm 2 Gói",
+      "Nước tương 1/2 Muỗng",
+      "Tỏi băm 1/2 Muỗng",
+      "Hành boa rô 1/2 Nhánh",
+      "Ớt bột 1 Muỗng",
+      "Tương ớt Hàn Quốc 1 Muỗng",
+      "Muối 2 Muỗng cà phê",
+      "Tiêu1/2 Muỗng cà phê",
+      "Nước dùng 2 Lít",
+      "Tương đậu nành 50 Gr"
+    ],
+    "ID": 1,
+    "IsFavorite": true,
+    "Description": "Lẩu kim chi cay kiểu Hàn là sự góp mặt của nhiều nguyên liệu thực phẩm Hàn Quốc quen thuộc như bánh gạo, tương ớt Gochujang, kim chi cải thảo, ... Thích hợp dùng cho bữa ăn gia đình trong những ngày trời lạnh.",
+    "Name": "Lẩu Kim Chi Cay Kiểu Hàn",
+    "Image": "lau_kim_chi.png"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bí đỏ đem hấp chín rồi đem tán nhuyễn. Cho bí đỏ, kem tươi, sữa, trứng, đường, bột mì đa dụng, bột bánh mì, men và muối vào thố rồi trộn đều. Dùng máy trộn bột bật máy trộn sang chế độ thấp nhất và để máy trộn khoảng 15 phút. Nếu bạn nhào bột bằng tay, thì nhào thêm 10 phút nữa là được"
+      },
+      {
+        "ImageName": "step_2_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Đậy thố bột bằng khăn ướt để bột nghỉ khoảng 1 giờ hoặc đến khi bột nở gấp 1,5 so với kích thước ban đầu. huẩn bị khuôn chữ nhật, chống dính cho khuôn bằng cách quết 1 lớp bơ mỏng. Sau đó, lấy khối bột ra nhào thêm 5 phút nữa để xẹp các bóng khí. Rồi chia bột ra thành 16 viên bằng nhau và vo tròn lại, xếp đều vào khuôn."
+      },
+      {
+        "ImageName": "step_3_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Dùng khăn đậy khuôn bánh lại để bánh nghỉ khoảng 1 giờ nữa bánh sẽ nở khoảng 1,5 lần so với kích thước ban đầu. Tiếp đó, dùng 1 quả trứng đánh tan với 1 muỗng cà phê nước rồi dùng cọ quét lên mặt bánh, rồi rắc hạt bí đỏ lên trên. Làm nóng lò ở nhiệt độ 350 độ F. Đặt khuôn bánh vào lò nướng trong khoảng 16-18 phút là bánh chín vàng đều. Sau đó, lấy bánh ra và quét lên bánh 1 lớp nước đường (2 muỗng cà phê đường hòa tan với 2 muỗng cà phê nước nóng: quét lên bánh sau khi nướng xong) để tăng hương vị và màu sắc cho bánh."
+      },
+      {
+        "ImageName": "step_4_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành."
+      }
+    ],
+    "Ingredients": [
+      "Bí đỏ 120 Gr",
+      "Kem sữa tươi 158 ml",
+      "Sữa tươi 75 ml",
+      "Trứng gà 1 Quả",
+      "Đường trắng 115 Gr",
+      "Bột mì 500 Gr",
+      "Bột mì 70 Gr",
+      "Men nở 11 Gr",
+      "Muối 7 Gr",
+      "Hạt bí 100 Gr"
+    ],
+    "ID": 2,
+    "IsFavorite": true,
+    "Description": "Bánh mì bí đỏ ăn ngon nhất khi vẫn còn nóng ấm, bánh mì thơm mềm quyện hương bí đỏ ngọt ngào. Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành. Với cách làm đơn giản này, bữa sáng của gia đình bạn sẽ trở nên phong phú, chất lượng hơn nhiều.",
+    "Name": "Bánh Mì Bí Đỏ Thơm Ngon",
+    "Image": "banh_mi_bi_do.jpg"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_1.png",
+        "VideoURL": "",
+        "Instruction": "Đậu hũ trắng cắt miếng vừa ăn. Xúc xích bò cắt lát mỏng xéo. Thịt nguội thái lát. (Có thể thêm thịt ba chỉ thái lát mỏng nếu thích). Hành boa rô cắt lát xéo. Thịt bò bằm nhỏ."
+      },
+      {
+        "ImageName": "step_2_1.png",
+        "VideoURL": "",
+        "Instruction": "Xếp xúc xích, thịt nguội, hành tây, kim chi, đậu hũ, thịt bò bằm vào nồi. Thêm hỗn hợp gia vị lên trên. Thêm nước dùng hầm xương vào, đun sôi khoảng 5 phút. Nêm muối và tiêu cho vừa ăn. Thêm một miếng phô mai lên trên. Thêm hành boa rô lên. Khi ăn múc ra chén, dùng nóng."
+      },
+      {
+        "ImageName": "step_3_1.png",
+        "VideoURL": "",
+        "Instruction": "Món lẩu có thể ăn cùng mì tôm hoặc cơm đều ngon. Vị cay thơm đặc trưng của lẩu thích hợp dùng trong những ngày trời trở lạnh nhé!"
+      }
+    ],
+    "Ingredients": [
+      "Kim chi cải thảo 300 Gr",
+      "Phô mai lá 1 Miếng",
+      "Xúc xích bò 4 Cây",
+      "Thịt bò 100 Gr",
+      "Đậu hũ trắng 1/2 Miếng",
+      "Bánh gạo 50 Gr",
+      "Hành tây 1/3 Củ",
+      "Thịt nguội 100 Gr",
+      "Mì tôm 2 Gói",
+      "Nước tương 1/2 Muỗng",
+      "Tỏi băm 1/2 Muỗng",
+      "Hành boa rô 1/2 Nhánh",
+      "Ớt bột 1 Muỗng",
+      "Tương ớt Hàn Quốc 1 Muỗng",
+      "Muối 2 Muỗng cà phê",
+      "Tiêu1/2 Muỗng cà phê",
+      "Nước dùng 2 Lít",
+      "Tương đậu nành 50 Gr"
+    ],
+    "ID": 3,
+    "IsFavorite": true,
+    "Description": "Lẩu kim chi cay kiểu Hàn là sự góp mặt của nhiều nguyên liệu thực phẩm Hàn Quốc quen thuộc như bánh gạo, tương ớt Gochujang, kim chi cải thảo, ... Thích hợp dùng cho bữa ăn gia đình trong những ngày trời lạnh.",
+    "Name": "Lẩu Kim Chi Cay Kiểu Hàn",
+    "Image": "lau_kim_chi.png"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bí đỏ đem hấp chín rồi đem tán nhuyễn. Cho bí đỏ, kem tươi, sữa, trứng, đường, bột mì đa dụng, bột bánh mì, men và muối vào thố rồi trộn đều. Dùng máy trộn bột bật máy trộn sang chế độ thấp nhất và để máy trộn khoảng 15 phút. Nếu bạn nhào bột bằng tay, thì nhào thêm 10 phút nữa là được"
+      },
+      {
+        "ImageName": "step_2_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Đậy thố bột bằng khăn ướt để bột nghỉ khoảng 1 giờ hoặc đến khi bột nở gấp 1,5 so với kích thước ban đầu. huẩn bị khuôn chữ nhật, chống dính cho khuôn bằng cách quết 1 lớp bơ mỏng. Sau đó, lấy khối bột ra nhào thêm 5 phút nữa để xẹp các bóng khí. Rồi chia bột ra thành 16 viên bằng nhau và vo tròn lại, xếp đều vào khuôn."
+      },
+      {
+        "ImageName": "step_3_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Dùng khăn đậy khuôn bánh lại để bánh nghỉ khoảng 1 giờ nữa bánh sẽ nở khoảng 1,5 lần so với kích thước ban đầu. Tiếp đó, dùng 1 quả trứng đánh tan với 1 muỗng cà phê nước rồi dùng cọ quét lên mặt bánh, rồi rắc hạt bí đỏ lên trên. Làm nóng lò ở nhiệt độ 350 độ F. Đặt khuôn bánh vào lò nướng trong khoảng 16-18 phút là bánh chín vàng đều. Sau đó, lấy bánh ra và quét lên bánh 1 lớp nước đường (2 muỗng cà phê đường hòa tan với 2 muỗng cà phê nước nóng: quét lên bánh sau khi nướng xong) để tăng hương vị và màu sắc cho bánh."
+      },
+      {
+        "ImageName": "step_4_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành."
+      }
+    ],
+    "Ingredients": [
+      "Bí đỏ 120 Gr",
+      "Kem sữa tươi 158 ml",
+      "Sữa tươi 75 ml",
+      "Trứng gà 1 Quả",
+      "Đường trắng 115 Gr",
+      "Bột mì 500 Gr",
+      "Bột mì 70 Gr",
+      "Men nở 11 Gr",
+      "Muối 7 Gr",
+      "Hạt bí 100 Gr"
+    ],
+    "ID": 4,
+    "IsFavorite": true,
+    "Description": "Bánh mì bí đỏ ăn ngon nhất khi vẫn còn nóng ấm, bánh mì thơm mềm quyện hương bí đỏ ngọt ngào. Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành. Với cách làm đơn giản này, bữa sáng của gia đình bạn sẽ trở nên phong phú, chất lượng hơn nhiều.",
+    "Name": "Bánh Mì Bí Đỏ Thơm Ngon",
+    "Image": "banh_mi_bi_do.jpg"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_1.png",
+        "VideoURL": "",
+        "Instruction": "Đậu hũ trắng cắt miếng vừa ăn. Xúc xích bò cắt lát mỏng xéo. Thịt nguội thái lát. (Có thể thêm thịt ba chỉ thái lát mỏng nếu thích). Hành boa rô cắt lát xéo. Thịt bò bằm nhỏ."
+      },
+      {
+        "ImageName": "step_2_1.png",
+        "VideoURL": "",
+        "Instruction": "Xếp xúc xích, thịt nguội, hành tây, kim chi, đậu hũ, thịt bò bằm vào nồi. Thêm hỗn hợp gia vị lên trên. Thêm nước dùng hầm xương vào, đun sôi khoảng 5 phút. Nêm muối và tiêu cho vừa ăn. Thêm một miếng phô mai lên trên. Thêm hành boa rô lên. Khi ăn múc ra chén, dùng nóng."
+      },
+      {
+        "ImageName": "step_3_1.png",
+        "VideoURL": "",
+        "Instruction": "Món lẩu có thể ăn cùng mì tôm hoặc cơm đều ngon. Vị cay thơm đặc trưng của lẩu thích hợp dùng trong những ngày trời trở lạnh nhé!"
+      }
+    ],
+    "Ingredients": [
+      "Kim chi cải thảo 300 Gr",
+      "Phô mai lá 1 Miếng",
+      "Xúc xích bò 4 Cây",
+      "Thịt bò 100 Gr",
+      "Đậu hũ trắng 1/2 Miếng",
+      "Bánh gạo 50 Gr",
+      "Hành tây 1/3 Củ",
+      "Thịt nguội 100 Gr",
+      "Mì tôm 2 Gói",
+      "Nước tương 1/2 Muỗng",
+      "Tỏi băm 1/2 Muỗng",
+      "Hành boa rô 1/2 Nhánh",
+      "Ớt bột 1 Muỗng",
+      "Tương ớt Hàn Quốc 1 Muỗng",
+      "Muối 2 Muỗng cà phê",
+      "Tiêu1/2 Muỗng cà phê",
+      "Nước dùng 2 Lít",
+      "Tương đậu nành 50 Gr"
+    ],
+    "ID": 5,
+    "IsFavorite": true,
+    "Description": "Lẩu kim chi cay kiểu Hàn là sự góp mặt của nhiều nguyên liệu thực phẩm Hàn Quốc quen thuộc như bánh gạo, tương ớt Gochujang, kim chi cải thảo, ... Thích hợp dùng cho bữa ăn gia đình trong những ngày trời lạnh.",
+    "Name": "Lẩu Kim Chi Cay Kiểu Hàn",
+    "Image": "lau_kim_chi.png"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bí đỏ đem hấp chín rồi đem tán nhuyễn. Cho bí đỏ, kem tươi, sữa, trứng, đường, bột mì đa dụng, bột bánh mì, men và muối vào thố rồi trộn đều. Dùng máy trộn bột bật máy trộn sang chế độ thấp nhất và để máy trộn khoảng 15 phút. Nếu bạn nhào bột bằng tay, thì nhào thêm 10 phút nữa là được"
+      },
+      {
+        "ImageName": "step_2_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Đậy thố bột bằng khăn ướt để bột nghỉ khoảng 1 giờ hoặc đến khi bột nở gấp 1,5 so với kích thước ban đầu. huẩn bị khuôn chữ nhật, chống dính cho khuôn bằng cách quết 1 lớp bơ mỏng. Sau đó, lấy khối bột ra nhào thêm 5 phút nữa để xẹp các bóng khí. Rồi chia bột ra thành 16 viên bằng nhau và vo tròn lại, xếp đều vào khuôn."
+      },
+      {
+        "ImageName": "step_3_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Dùng khăn đậy khuôn bánh lại để bánh nghỉ khoảng 1 giờ nữa bánh sẽ nở khoảng 1,5 lần so với kích thước ban đầu. Tiếp đó, dùng 1 quả trứng đánh tan với 1 muỗng cà phê nước rồi dùng cọ quét lên mặt bánh, rồi rắc hạt bí đỏ lên trên. Làm nóng lò ở nhiệt độ 350 độ F. Đặt khuôn bánh vào lò nướng trong khoảng 16-18 phút là bánh chín vàng đều. Sau đó, lấy bánh ra và quét lên bánh 1 lớp nước đường (2 muỗng cà phê đường hòa tan với 2 muỗng cà phê nước nóng: quét lên bánh sau khi nướng xong) để tăng hương vị và màu sắc cho bánh."
+      },
+      {
+        "ImageName": "step_4_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành."
+      }
+    ],
+    "Ingredients": [
+      "Bí đỏ 120 Gr",
+      "Kem sữa tươi 158 ml",
+      "Sữa tươi 75 ml",
+      "Trứng gà 1 Quả",
+      "Đường trắng 115 Gr",
+      "Bột mì 500 Gr",
+      "Bột mì 70 Gr",
+      "Men nở 11 Gr",
+      "Muối 7 Gr",
+      "Hạt bí 100 Gr"
+    ],
+    "ID": 6,
+    "IsFavorite": true,
+    "Description": "Bánh mì bí đỏ ăn ngon nhất khi vẫn còn nóng ấm, bánh mì thơm mềm quyện hương bí đỏ ngọt ngào. Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành. Với cách làm đơn giản này, bữa sáng của gia đình bạn sẽ trở nên phong phú, chất lượng hơn nhiều.",
+    "Name": "Bánh Mì Bí Đỏ Thơm Ngon",
+    "Image": "banh_mi_bi_do.jpg"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_1.png",
+        "VideoURL": "",
+        "Instruction": "Đậu hũ trắng cắt miếng vừa ăn. Xúc xích bò cắt lát mỏng xéo. Thịt nguội thái lát. (Có thể thêm thịt ba chỉ thái lát mỏng nếu thích). Hành boa rô cắt lát xéo. Thịt bò bằm nhỏ."
+      },
+      {
+        "ImageName": "step_2_1.png",
+        "VideoURL": "",
+        "Instruction": "Xếp xúc xích, thịt nguội, hành tây, kim chi, đậu hũ, thịt bò bằm vào nồi. Thêm hỗn hợp gia vị lên trên. Thêm nước dùng hầm xương vào, đun sôi khoảng 5 phút. Nêm muối và tiêu cho vừa ăn. Thêm một miếng phô mai lên trên. Thêm hành boa rô lên. Khi ăn múc ra chén, dùng nóng."
+      },
+      {
+        "ImageName": "step_3_1.png",
+        "VideoURL": "",
+        "Instruction": "Món lẩu có thể ăn cùng mì tôm hoặc cơm đều ngon. Vị cay thơm đặc trưng của lẩu thích hợp dùng trong những ngày trời trở lạnh nhé!"
+      }
+    ],
+    "Ingredients": [
+      "Kim chi cải thảo 300 Gr",
+      "Phô mai lá 1 Miếng",
+      "Xúc xích bò 4 Cây",
+      "Thịt bò 100 Gr",
+      "Đậu hũ trắng 1/2 Miếng",
+      "Bánh gạo 50 Gr",
+      "Hành tây 1/3 Củ",
+      "Thịt nguội 100 Gr",
+      "Mì tôm 2 Gói",
+      "Nước tương 1/2 Muỗng",
+      "Tỏi băm 1/2 Muỗng",
+      "Hành boa rô 1/2 Nhánh",
+      "Ớt bột 1 Muỗng",
+      "Tương ớt Hàn Quốc 1 Muỗng",
+      "Muối 2 Muỗng cà phê",
+      "Tiêu1/2 Muỗng cà phê",
+      "Nước dùng 2 Lít",
+      "Tương đậu nành 50 Gr"
+    ],
+    "ID": 7,
+    "IsFavorite": true,
+    "Description": "Lẩu kim chi cay kiểu Hàn là sự góp mặt của nhiều nguyên liệu thực phẩm Hàn Quốc quen thuộc như bánh gạo, tương ớt Gochujang, kim chi cải thảo, ... Thích hợp dùng cho bữa ăn gia đình trong những ngày trời lạnh.",
+    "Name": "Lẩu Kim Chi Cay Kiểu Hàn",
+    "Image": "lau_kim_chi.png"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bí đỏ đem hấp chín rồi đem tán nhuyễn. Cho bí đỏ, kem tươi, sữa, trứng, đường, bột mì đa dụng, bột bánh mì, men và muối vào thố rồi trộn đều. Dùng máy trộn bột bật máy trộn sang chế độ thấp nhất và để máy trộn khoảng 15 phút. Nếu bạn nhào bột bằng tay, thì nhào thêm 10 phút nữa là được"
+      },
+      {
+        "ImageName": "step_2_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Đậy thố bột bằng khăn ướt để bột nghỉ khoảng 1 giờ hoặc đến khi bột nở gấp 1,5 so với kích thước ban đầu. huẩn bị khuôn chữ nhật, chống dính cho khuôn bằng cách quết 1 lớp bơ mỏng. Sau đó, lấy khối bột ra nhào thêm 5 phút nữa để xẹp các bóng khí. Rồi chia bột ra thành 16 viên bằng nhau và vo tròn lại, xếp đều vào khuôn."
+      },
+      {
+        "ImageName": "step_3_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Dùng khăn đậy khuôn bánh lại để bánh nghỉ khoảng 1 giờ nữa bánh sẽ nở khoảng 1,5 lần so với kích thước ban đầu. Tiếp đó, dùng 1 quả trứng đánh tan với 1 muỗng cà phê nước rồi dùng cọ quét lên mặt bánh, rồi rắc hạt bí đỏ lên trên. Làm nóng lò ở nhiệt độ 350 độ F. Đặt khuôn bánh vào lò nướng trong khoảng 16-18 phút là bánh chín vàng đều. Sau đó, lấy bánh ra và quét lên bánh 1 lớp nước đường (2 muỗng cà phê đường hòa tan với 2 muỗng cà phê nước nóng: quét lên bánh sau khi nướng xong) để tăng hương vị và màu sắc cho bánh."
+      },
+      {
+        "ImageName": "step_4_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành."
+      }
+    ],
+    "Ingredients": [
+      "Bí đỏ 120 Gr",
+      "Kem sữa tươi 158 ml",
+      "Sữa tươi 75 ml",
+      "Trứng gà 1 Quả",
+      "Đường trắng 115 Gr",
+      "Bột mì 500 Gr",
+      "Bột mì 70 Gr",
+      "Men nở 11 Gr",
+      "Muối 7 Gr",
+      "Hạt bí 100 Gr"
+    ],
+    "ID": 8,
+    "IsFavorite": true,
+    "Description": "Bánh mì bí đỏ ăn ngon nhất khi vẫn còn nóng ấm, bánh mì thơm mềm quyện hương bí đỏ ngọt ngào. Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành. Với cách làm đơn giản này, bữa sáng của gia đình bạn sẽ trở nên phong phú, chất lượng hơn nhiều.",
+    "Name": "Bánh Mì Bí Đỏ Thơm Ngon",
+    "Image": "banh_mi_bi_do.jpg"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_1.png",
+        "VideoURL": "",
+        "Instruction": "Đậu hũ trắng cắt miếng vừa ăn. Xúc xích bò cắt lát mỏng xéo. Thịt nguội thái lát. (Có thể thêm thịt ba chỉ thái lát mỏng nếu thích). Hành boa rô cắt lát xéo. Thịt bò bằm nhỏ."
+      },
+      {
+        "ImageName": "step_2_1.png",
+        "VideoURL": "",
+        "Instruction": "Xếp xúc xích, thịt nguội, hành tây, kim chi, đậu hũ, thịt bò bằm vào nồi. Thêm hỗn hợp gia vị lên trên. Thêm nước dùng hầm xương vào, đun sôi khoảng 5 phút. Nêm muối và tiêu cho vừa ăn. Thêm một miếng phô mai lên trên. Thêm hành boa rô lên. Khi ăn múc ra chén, dùng nóng."
+      },
+      {
+        "ImageName": "step_3_1.png",
+        "VideoURL": "",
+        "Instruction": "Món lẩu có thể ăn cùng mì tôm hoặc cơm đều ngon. Vị cay thơm đặc trưng của lẩu thích hợp dùng trong những ngày trời trở lạnh nhé!"
+      }
+    ],
+    "Ingredients": [
+      "Kim chi cải thảo 300 Gr",
+      "Phô mai lá 1 Miếng",
+      "Xúc xích bò 4 Cây",
+      "Thịt bò 100 Gr",
+      "Đậu hũ trắng 1/2 Miếng",
+      "Bánh gạo 50 Gr",
+      "Hành tây 1/3 Củ",
+      "Thịt nguội 100 Gr",
+      "Mì tôm 2 Gói",
+      "Nước tương 1/2 Muỗng",
+      "Tỏi băm 1/2 Muỗng",
+      "Hành boa rô 1/2 Nhánh",
+      "Ớt bột 1 Muỗng",
+      "Tương ớt Hàn Quốc 1 Muỗng",
+      "Muối 2 Muỗng cà phê",
+      "Tiêu1/2 Muỗng cà phê",
+      "Nước dùng 2 Lít",
+      "Tương đậu nành 50 Gr"
+    ],
+    "ID": 9,
+    "IsFavorite": true,
+    "Description": "Lẩu kim chi cay kiểu Hàn là sự góp mặt của nhiều nguyên liệu thực phẩm Hàn Quốc quen thuộc như bánh gạo, tương ớt Gochujang, kim chi cải thảo, ... Thích hợp dùng cho bữa ăn gia đình trong những ngày trời lạnh.",
+    "Name": "Lẩu Kim Chi Cay Kiểu Hàn",
+    "Image": "lau_kim_chi.png"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bí đỏ đem hấp chín rồi đem tán nhuyễn. Cho bí đỏ, kem tươi, sữa, trứng, đường, bột mì đa dụng, bột bánh mì, men và muối vào thố rồi trộn đều. Dùng máy trộn bột bật máy trộn sang chế độ thấp nhất và để máy trộn khoảng 15 phút. Nếu bạn nhào bột bằng tay, thì nhào thêm 10 phút nữa là được"
+      },
+      {
+        "ImageName": "step_2_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Đậy thố bột bằng khăn ướt để bột nghỉ khoảng 1 giờ hoặc đến khi bột nở gấp 1,5 so với kích thước ban đầu. huẩn bị khuôn chữ nhật, chống dính cho khuôn bằng cách quết 1 lớp bơ mỏng. Sau đó, lấy khối bột ra nhào thêm 5 phút nữa để xẹp các bóng khí. Rồi chia bột ra thành 16 viên bằng nhau và vo tròn lại, xếp đều vào khuôn."
+      },
+      {
+        "ImageName": "step_3_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Dùng khăn đậy khuôn bánh lại để bánh nghỉ khoảng 1 giờ nữa bánh sẽ nở khoảng 1,5 lần so với kích thước ban đầu. Tiếp đó, dùng 1 quả trứng đánh tan với 1 muỗng cà phê nước rồi dùng cọ quét lên mặt bánh, rồi rắc hạt bí đỏ lên trên. Làm nóng lò ở nhiệt độ 350 độ F. Đặt khuôn bánh vào lò nướng trong khoảng 16-18 phút là bánh chín vàng đều. Sau đó, lấy bánh ra và quét lên bánh 1 lớp nước đường (2 muỗng cà phê đường hòa tan với 2 muỗng cà phê nước nóng: quét lên bánh sau khi nướng xong) để tăng hương vị và màu sắc cho bánh."
+      },
+      {
+        "ImageName": "step_4_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành."
+      }
+    ],
+    "Ingredients": [
+      "Bí đỏ 120 Gr",
+      "Kem sữa tươi 158 ml",
+      "Sữa tươi 75 ml",
+      "Trứng gà 1 Quả",
+      "Đường trắng 115 Gr",
+      "Bột mì 500 Gr",
+      "Bột mì 70 Gr",
+      "Men nở 11 Gr",
+      "Muối 7 Gr",
+      "Hạt bí 100 Gr"
+    ],
+    "ID": 10,
+    "IsFavorite": true,
+    "Description": "Bánh mì bí đỏ ăn ngon nhất khi vẫn còn nóng ấm, bánh mì thơm mềm quyện hương bí đỏ ngọt ngào. Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành. Với cách làm đơn giản này, bữa sáng của gia đình bạn sẽ trở nên phong phú, chất lượng hơn nhiều.",
+    "Name": "Bánh Mì Bí Đỏ Thơm Ngon",
+    "Image": "banh_mi_bi_do.jpg"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_1.png",
+        "VideoURL": "",
+        "Instruction": "Đậu hũ trắng cắt miếng vừa ăn. Xúc xích bò cắt lát mỏng xéo. Thịt nguội thái lát. (Có thể thêm thịt ba chỉ thái lát mỏng nếu thích). Hành boa rô cắt lát xéo. Thịt bò bằm nhỏ."
+      },
+      {
+        "ImageName": "step_2_1.png",
+        "VideoURL": "",
+        "Instruction": "Xếp xúc xích, thịt nguội, hành tây, kim chi, đậu hũ, thịt bò bằm vào nồi. Thêm hỗn hợp gia vị lên trên. Thêm nước dùng hầm xương vào, đun sôi khoảng 5 phút. Nêm muối và tiêu cho vừa ăn. Thêm một miếng phô mai lên trên. Thêm hành boa rô lên. Khi ăn múc ra chén, dùng nóng."
+      },
+      {
+        "ImageName": "step_3_1.png",
+        "VideoURL": "",
+        "Instruction": "Món lẩu có thể ăn cùng mì tôm hoặc cơm đều ngon. Vị cay thơm đặc trưng của lẩu thích hợp dùng trong những ngày trời trở lạnh nhé!"
+      }
+    ],
+    "Ingredients": [
+      "Kim chi cải thảo 300 Gr",
+      "Phô mai lá 1 Miếng",
+      "Xúc xích bò 4 Cây",
+      "Thịt bò 100 Gr",
+      "Đậu hũ trắng 1/2 Miếng",
+      "Bánh gạo 50 Gr",
+      "Hành tây 1/3 Củ",
+      "Thịt nguội 100 Gr",
+      "Mì tôm 2 Gói",
+      "Nước tương 1/2 Muỗng",
+      "Tỏi băm 1/2 Muỗng",
+      "Hành boa rô 1/2 Nhánh",
+      "Ớt bột 1 Muỗng",
+      "Tương ớt Hàn Quốc 1 Muỗng",
+      "Muối 2 Muỗng cà phê",
+      "Tiêu1/2 Muỗng cà phê",
+      "Nước dùng 2 Lít",
+      "Tương đậu nành 50 Gr"
+    ],
+    "ID": 11,
+    "IsFavorite": true,
+    "Description": "Lẩu kim chi cay kiểu Hàn là sự góp mặt của nhiều nguyên liệu thực phẩm Hàn Quốc quen thuộc như bánh gạo, tương ớt Gochujang, kim chi cải thảo, ... Thích hợp dùng cho bữa ăn gia đình trong những ngày trời lạnh.",
+    "Name": "Lẩu Kim Chi Cay Kiểu Hàn",
+    "Image": "lau_kim_chi.png"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bí đỏ đem hấp chín rồi đem tán nhuyễn. Cho bí đỏ, kem tươi, sữa, trứng, đường, bột mì đa dụng, bột bánh mì, men và muối vào thố rồi trộn đều. Dùng máy trộn bột bật máy trộn sang chế độ thấp nhất và để máy trộn khoảng 15 phút. Nếu bạn nhào bột bằng tay, thì nhào thêm 10 phút nữa là được"
+      },
+      {
+        "ImageName": "step_2_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Đậy thố bột bằng khăn ướt để bột nghỉ khoảng 1 giờ hoặc đến khi bột nở gấp 1,5 so với kích thước ban đầu. huẩn bị khuôn chữ nhật, chống dính cho khuôn bằng cách quết 1 lớp bơ mỏng. Sau đó, lấy khối bột ra nhào thêm 5 phút nữa để xẹp các bóng khí. Rồi chia bột ra thành 16 viên bằng nhau và vo tròn lại, xếp đều vào khuôn."
+      },
+      {
+        "ImageName": "step_3_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Dùng khăn đậy khuôn bánh lại để bánh nghỉ khoảng 1 giờ nữa bánh sẽ nở khoảng 1,5 lần so với kích thước ban đầu. Tiếp đó, dùng 1 quả trứng đánh tan với 1 muỗng cà phê nước rồi dùng cọ quét lên mặt bánh, rồi rắc hạt bí đỏ lên trên. Làm nóng lò ở nhiệt độ 350 độ F. Đặt khuôn bánh vào lò nướng trong khoảng 16-18 phút là bánh chín vàng đều. Sau đó, lấy bánh ra và quét lên bánh 1 lớp nước đường (2 muỗng cà phê đường hòa tan với 2 muỗng cà phê nước nóng: quét lên bánh sau khi nướng xong) để tăng hương vị và màu sắc cho bánh."
+      },
+      {
+        "ImageName": "step_4_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành."
+      }
+    ],
+    "Ingredients": [
+      "Bí đỏ 120 Gr",
+      "Kem sữa tươi 158 ml",
+      "Sữa tươi 75 ml",
+      "Trứng gà 1 Quả",
+      "Đường trắng 115 Gr",
+      "Bột mì 500 Gr",
+      "Bột mì 70 Gr",
+      "Men nở 11 Gr",
+      "Muối 7 Gr",
+      "Hạt bí 100 Gr"
+    ],
+    "ID": 12,
+    "IsFavorite": true,
+    "Description": "Bánh mì bí đỏ ăn ngon nhất khi vẫn còn nóng ấm, bánh mì thơm mềm quyện hương bí đỏ ngọt ngào. Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành. Với cách làm đơn giản này, bữa sáng của gia đình bạn sẽ trở nên phong phú, chất lượng hơn nhiều.",
+    "Name": "Bánh Mì Bí Đỏ Thơm Ngon",
+    "Image": "banh_mi_bi_do.jpg"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_1.png",
+        "VideoURL": "",
+        "Instruction": "Đậu hũ trắng cắt miếng vừa ăn. Xúc xích bò cắt lát mỏng xéo. Thịt nguội thái lát. (Có thể thêm thịt ba chỉ thái lát mỏng nếu thích). Hành boa rô cắt lát xéo. Thịt bò bằm nhỏ."
+      },
+      {
+        "ImageName": "step_2_1.png",
+        "VideoURL": "",
+        "Instruction": "Xếp xúc xích, thịt nguội, hành tây, kim chi, đậu hũ, thịt bò bằm vào nồi. Thêm hỗn hợp gia vị lên trên. Thêm nước dùng hầm xương vào, đun sôi khoảng 5 phút. Nêm muối và tiêu cho vừa ăn. Thêm một miếng phô mai lên trên. Thêm hành boa rô lên. Khi ăn múc ra chén, dùng nóng."
+      },
+      {
+        "ImageName": "step_3_1.png",
+        "VideoURL": "",
+        "Instruction": "Món lẩu có thể ăn cùng mì tôm hoặc cơm đều ngon. Vị cay thơm đặc trưng của lẩu thích hợp dùng trong những ngày trời trở lạnh nhé!"
+      }
+    ],
+    "Ingredients": [
+      "Kim chi cải thảo 300 Gr",
+      "Phô mai lá 1 Miếng",
+      "Xúc xích bò 4 Cây",
+      "Thịt bò 100 Gr",
+      "Đậu hũ trắng 1/2 Miếng",
+      "Bánh gạo 50 Gr",
+      "Hành tây 1/3 Củ",
+      "Thịt nguội 100 Gr",
+      "Mì tôm 2 Gói",
+      "Nước tương 1/2 Muỗng",
+      "Tỏi băm 1/2 Muỗng",
+      "Hành boa rô 1/2 Nhánh",
+      "Ớt bột 1 Muỗng",
+      "Tương ớt Hàn Quốc 1 Muỗng",
+      "Muối 2 Muỗng cà phê",
+      "Tiêu1/2 Muỗng cà phê",
+      "Nước dùng 2 Lít",
+      "Tương đậu nành 50 Gr"
+    ],
+    "ID": 13,
+    "IsFavorite": true,
+    "Description": "Lẩu kim chi cay kiểu Hàn là sự góp mặt của nhiều nguyên liệu thực phẩm Hàn Quốc quen thuộc như bánh gạo, tương ớt Gochujang, kim chi cải thảo, ... Thích hợp dùng cho bữa ăn gia đình trong những ngày trời lạnh.",
+    "Name": "Lẩu Kim Chi Cay Kiểu Hàn",
+    "Image": "lau_kim_chi.png"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bí đỏ đem hấp chín rồi đem tán nhuyễn. Cho bí đỏ, kem tươi, sữa, trứng, đường, bột mì đa dụng, bột bánh mì, men và muối vào thố rồi trộn đều. Dùng máy trộn bột bật máy trộn sang chế độ thấp nhất và để máy trộn khoảng 15 phút. Nếu bạn nhào bột bằng tay, thì nhào thêm 10 phút nữa là được"
+      },
+      {
+        "ImageName": "step_2_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Đậy thố bột bằng khăn ướt để bột nghỉ khoảng 1 giờ hoặc đến khi bột nở gấp 1,5 so với kích thước ban đầu. huẩn bị khuôn chữ nhật, chống dính cho khuôn bằng cách quết 1 lớp bơ mỏng. Sau đó, lấy khối bột ra nhào thêm 5 phút nữa để xẹp các bóng khí. Rồi chia bột ra thành 16 viên bằng nhau và vo tròn lại, xếp đều vào khuôn."
+      },
+      {
+        "ImageName": "step_3_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Dùng khăn đậy khuôn bánh lại để bánh nghỉ khoảng 1 giờ nữa bánh sẽ nở khoảng 1,5 lần so với kích thước ban đầu. Tiếp đó, dùng 1 quả trứng đánh tan với 1 muỗng cà phê nước rồi dùng cọ quét lên mặt bánh, rồi rắc hạt bí đỏ lên trên. Làm nóng lò ở nhiệt độ 350 độ F. Đặt khuôn bánh vào lò nướng trong khoảng 16-18 phút là bánh chín vàng đều. Sau đó, lấy bánh ra và quét lên bánh 1 lớp nước đường (2 muỗng cà phê đường hòa tan với 2 muỗng cà phê nước nóng: quét lên bánh sau khi nướng xong) để tăng hương vị và màu sắc cho bánh."
+      },
+      {
+        "ImageName": "step_4_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành."
+      }
+    ],
+    "Ingredients": [
+      "Bí đỏ 120 Gr",
+      "Kem sữa tươi 158 ml",
+      "Sữa tươi 75 ml",
+      "Trứng gà 1 Quả",
+      "Đường trắng 115 Gr",
+      "Bột mì 500 Gr",
+      "Bột mì 70 Gr",
+      "Men nở 11 Gr",
+      "Muối 7 Gr",
+      "Hạt bí 100 Gr"
+    ],
+    "ID": 14,
+    "IsFavorite": true,
+    "Description": "Bánh mì bí đỏ ăn ngon nhất khi vẫn còn nóng ấm, bánh mì thơm mềm quyện hương bí đỏ ngọt ngào. Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành. Với cách làm đơn giản này, bữa sáng của gia đình bạn sẽ trở nên phong phú, chất lượng hơn nhiều.",
+    "Name": "Bánh Mì Bí Đỏ Thơm Ngon",
+    "Image": "banh_mi_bi_do.jpg"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_1.png",
+        "VideoURL": "",
+        "Instruction": "Đậu hũ trắng cắt miếng vừa ăn. Xúc xích bò cắt lát mỏng xéo. Thịt nguội thái lát. (Có thể thêm thịt ba chỉ thái lát mỏng nếu thích). Hành boa rô cắt lát xéo. Thịt bò bằm nhỏ."
+      },
+      {
+        "ImageName": "step_2_1.png",
+        "VideoURL": "",
+        "Instruction": "Xếp xúc xích, thịt nguội, hành tây, kim chi, đậu hũ, thịt bò bằm vào nồi. Thêm hỗn hợp gia vị lên trên. Thêm nước dùng hầm xương vào, đun sôi khoảng 5 phút. Nêm muối và tiêu cho vừa ăn. Thêm một miếng phô mai lên trên. Thêm hành boa rô lên. Khi ăn múc ra chén, dùng nóng."
+      },
+      {
+        "ImageName": "step_3_1.png",
+        "VideoURL": "",
+        "Instruction": "Món lẩu có thể ăn cùng mì tôm hoặc cơm đều ngon. Vị cay thơm đặc trưng của lẩu thích hợp dùng trong những ngày trời trở lạnh nhé!"
+      }
+    ],
+    "Ingredients": [
+      "Kim chi cải thảo 300 Gr",
+      "Phô mai lá 1 Miếng",
+      "Xúc xích bò 4 Cây",
+      "Thịt bò 100 Gr",
+      "Đậu hũ trắng 1/2 Miếng",
+      "Bánh gạo 50 Gr",
+      "Hành tây 1/3 Củ",
+      "Thịt nguội 100 Gr",
+      "Mì tôm 2 Gói",
+      "Nước tương 1/2 Muỗng",
+      "Tỏi băm 1/2 Muỗng",
+      "Hành boa rô 1/2 Nhánh",
+      "Ớt bột 1 Muỗng",
+      "Tương ớt Hàn Quốc 1 Muỗng",
+      "Muối 2 Muỗng cà phê",
+      "Tiêu1/2 Muỗng cà phê",
+      "Nước dùng 2 Lít",
+      "Tương đậu nành 50 Gr"
+    ],
+    "ID": 15,
+    "IsFavorite": true,
+    "Description": "Lẩu kim chi cay kiểu Hàn là sự góp mặt của nhiều nguyên liệu thực phẩm Hàn Quốc quen thuộc như bánh gạo, tương ớt Gochujang, kim chi cải thảo, ... Thích hợp dùng cho bữa ăn gia đình trong những ngày trời lạnh.",
+    "Name": "Lẩu Kim Chi Cay Kiểu Hàn",
+    "Image": "lau_kim_chi.png"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bí đỏ đem hấp chín rồi đem tán nhuyễn. Cho bí đỏ, kem tươi, sữa, trứng, đường, bột mì đa dụng, bột bánh mì, men và muối vào thố rồi trộn đều. Dùng máy trộn bột bật máy trộn sang chế độ thấp nhất và để máy trộn khoảng 15 phút. Nếu bạn nhào bột bằng tay, thì nhào thêm 10 phút nữa là được"
+      },
+      {
+        "ImageName": "step_2_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Đậy thố bột bằng khăn ướt để bột nghỉ khoảng 1 giờ hoặc đến khi bột nở gấp 1,5 so với kích thước ban đầu. huẩn bị khuôn chữ nhật, chống dính cho khuôn bằng cách quết 1 lớp bơ mỏng. Sau đó, lấy khối bột ra nhào thêm 5 phút nữa để xẹp các bóng khí. Rồi chia bột ra thành 16 viên bằng nhau và vo tròn lại, xếp đều vào khuôn."
+      },
+      {
+        "ImageName": "step_3_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Dùng khăn đậy khuôn bánh lại để bánh nghỉ khoảng 1 giờ nữa bánh sẽ nở khoảng 1,5 lần so với kích thước ban đầu. Tiếp đó, dùng 1 quả trứng đánh tan với 1 muỗng cà phê nước rồi dùng cọ quét lên mặt bánh, rồi rắc hạt bí đỏ lên trên. Làm nóng lò ở nhiệt độ 350 độ F. Đặt khuôn bánh vào lò nướng trong khoảng 16-18 phút là bánh chín vàng đều. Sau đó, lấy bánh ra và quét lên bánh 1 lớp nước đường (2 muỗng cà phê đường hòa tan với 2 muỗng cà phê nước nóng: quét lên bánh sau khi nướng xong) để tăng hương vị và màu sắc cho bánh."
+      },
+      {
+        "ImageName": "step_4_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành."
+      }
+    ],
+    "Ingredients": [
+      "Bí đỏ 120 Gr",
+      "Kem sữa tươi 158 ml",
+      "Sữa tươi 75 ml",
+      "Trứng gà 1 Quả",
+      "Đường trắng 115 Gr",
+      "Bột mì 500 Gr",
+      "Bột mì 70 Gr",
+      "Men nở 11 Gr",
+      "Muối 7 Gr",
+      "Hạt bí 100 Gr"
+    ],
+    "ID": 16,
+    "IsFavorite": true,
+    "Description": "Bánh mì bí đỏ ăn ngon nhất khi vẫn còn nóng ấm, bánh mì thơm mềm quyện hương bí đỏ ngọt ngào. Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành. Với cách làm đơn giản này, bữa sáng của gia đình bạn sẽ trở nên phong phú, chất lượng hơn nhiều.",
+    "Name": "Bánh Mì Bí Đỏ Thơm Ngon",
+    "Image": "banh_mi_bi_do.jpg"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_1.png",
+        "VideoURL": "",
+        "Instruction": "Đậu hũ trắng cắt miếng vừa ăn. Xúc xích bò cắt lát mỏng xéo. Thịt nguội thái lát. (Có thể thêm thịt ba chỉ thái lát mỏng nếu thích). Hành boa rô cắt lát xéo. Thịt bò bằm nhỏ."
+      },
+      {
+        "ImageName": "step_2_1.png",
+        "VideoURL": "",
+        "Instruction": "Xếp xúc xích, thịt nguội, hành tây, kim chi, đậu hũ, thịt bò bằm vào nồi. Thêm hỗn hợp gia vị lên trên. Thêm nước dùng hầm xương vào, đun sôi khoảng 5 phút. Nêm muối và tiêu cho vừa ăn. Thêm một miếng phô mai lên trên. Thêm hành boa rô lên. Khi ăn múc ra chén, dùng nóng."
+      },
+      {
+        "ImageName": "step_3_1.png",
+        "VideoURL": "",
+        "Instruction": "Món lẩu có thể ăn cùng mì tôm hoặc cơm đều ngon. Vị cay thơm đặc trưng của lẩu thích hợp dùng trong những ngày trời trở lạnh nhé!"
+      }
+    ],
+    "Ingredients": [
+      "Kim chi cải thảo 300 Gr",
+      "Phô mai lá 1 Miếng",
+      "Xúc xích bò 4 Cây",
+      "Thịt bò 100 Gr",
+      "Đậu hũ trắng 1/2 Miếng",
+      "Bánh gạo 50 Gr",
+      "Hành tây 1/3 Củ",
+      "Thịt nguội 100 Gr",
+      "Mì tôm 2 Gói",
+      "Nước tương 1/2 Muỗng",
+      "Tỏi băm 1/2 Muỗng",
+      "Hành boa rô 1/2 Nhánh",
+      "Ớt bột 1 Muỗng",
+      "Tương ớt Hàn Quốc 1 Muỗng",
+      "Muối 2 Muỗng cà phê",
+      "Tiêu1/2 Muỗng cà phê",
+      "Nước dùng 2 Lít",
+      "Tương đậu nành 50 Gr"
+    ],
+    "ID": 17,
+    "IsFavorite": true,
+    "Description": "Lẩu kim chi cay kiểu Hàn là sự góp mặt của nhiều nguyên liệu thực phẩm Hàn Quốc quen thuộc như bánh gạo, tương ớt Gochujang, kim chi cải thảo, ... Thích hợp dùng cho bữa ăn gia đình trong những ngày trời lạnh.",
+    "Name": "Lẩu Kim Chi Cay Kiểu Hàn",
+    "Image": "lau_kim_chi.png"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bí đỏ đem hấp chín rồi đem tán nhuyễn. Cho bí đỏ, kem tươi, sữa, trứng, đường, bột mì đa dụng, bột bánh mì, men và muối vào thố rồi trộn đều. Dùng máy trộn bột bật máy trộn sang chế độ thấp nhất và để máy trộn khoảng 15 phút. Nếu bạn nhào bột bằng tay, thì nhào thêm 10 phút nữa là được"
+      },
+      {
+        "ImageName": "step_2_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Đậy thố bột bằng khăn ướt để bột nghỉ khoảng 1 giờ hoặc đến khi bột nở gấp 1,5 so với kích thước ban đầu. huẩn bị khuôn chữ nhật, chống dính cho khuôn bằng cách quết 1 lớp bơ mỏng. Sau đó, lấy khối bột ra nhào thêm 5 phút nữa để xẹp các bóng khí. Rồi chia bột ra thành 16 viên bằng nhau và vo tròn lại, xếp đều vào khuôn."
+      },
+      {
+        "ImageName": "step_3_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Dùng khăn đậy khuôn bánh lại để bánh nghỉ khoảng 1 giờ nữa bánh sẽ nở khoảng 1,5 lần so với kích thước ban đầu. Tiếp đó, dùng 1 quả trứng đánh tan với 1 muỗng cà phê nước rồi dùng cọ quét lên mặt bánh, rồi rắc hạt bí đỏ lên trên. Làm nóng lò ở nhiệt độ 350 độ F. Đặt khuôn bánh vào lò nướng trong khoảng 16-18 phút là bánh chín vàng đều. Sau đó, lấy bánh ra và quét lên bánh 1 lớp nước đường (2 muỗng cà phê đường hòa tan với 2 muỗng cà phê nước nóng: quét lên bánh sau khi nướng xong) để tăng hương vị và màu sắc cho bánh."
+      },
+      {
+        "ImageName": "step_4_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành."
+      }
+    ],
+    "Ingredients": [
+      "Bí đỏ 120 Gr",
+      "Kem sữa tươi 158 ml",
+      "Sữa tươi 75 ml",
+      "Trứng gà 1 Quả",
+      "Đường trắng 115 Gr",
+      "Bột mì 500 Gr",
+      "Bột mì 70 Gr",
+      "Men nở 11 Gr",
+      "Muối 7 Gr",
+      "Hạt bí 100 Gr"
+    ],
+    "ID": 18,
+    "IsFavorite": true,
+    "Description": "Bánh mì bí đỏ ăn ngon nhất khi vẫn còn nóng ấm, bánh mì thơm mềm quyện hương bí đỏ ngọt ngào. Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành. Với cách làm đơn giản này, bữa sáng của gia đình bạn sẽ trở nên phong phú, chất lượng hơn nhiều.",
+    "Name": "Bánh Mì Bí Đỏ Thơm Ngon",
+    "Image": "banh_mi_bi_do.jpg"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_1.png",
+        "VideoURL": "",
+        "Instruction": "Đậu hũ trắng cắt miếng vừa ăn. Xúc xích bò cắt lát mỏng xéo. Thịt nguội thái lát. (Có thể thêm thịt ba chỉ thái lát mỏng nếu thích). Hành boa rô cắt lát xéo. Thịt bò bằm nhỏ."
+      },
+      {
+        "ImageName": "step_2_1.png",
+        "VideoURL": "",
+        "Instruction": "Xếp xúc xích, thịt nguội, hành tây, kim chi, đậu hũ, thịt bò bằm vào nồi. Thêm hỗn hợp gia vị lên trên. Thêm nước dùng hầm xương vào, đun sôi khoảng 5 phút. Nêm muối và tiêu cho vừa ăn. Thêm một miếng phô mai lên trên. Thêm hành boa rô lên. Khi ăn múc ra chén, dùng nóng."
+      },
+      {
+        "ImageName": "step_3_1.png",
+        "VideoURL": "",
+        "Instruction": "Món lẩu có thể ăn cùng mì tôm hoặc cơm đều ngon. Vị cay thơm đặc trưng của lẩu thích hợp dùng trong những ngày trời trở lạnh nhé!"
+      }
+    ],
+    "Ingredients": [
+      "Kim chi cải thảo 300 Gr",
+      "Phô mai lá 1 Miếng",
+      "Xúc xích bò 4 Cây",
+      "Thịt bò 100 Gr",
+      "Đậu hũ trắng 1/2 Miếng",
+      "Bánh gạo 50 Gr",
+      "Hành tây 1/3 Củ",
+      "Thịt nguội 100 Gr",
+      "Mì tôm 2 Gói",
+      "Nước tương 1/2 Muỗng",
+      "Tỏi băm 1/2 Muỗng",
+      "Hành boa rô 1/2 Nhánh",
+      "Ớt bột 1 Muỗng",
+      "Tương ớt Hàn Quốc 1 Muỗng",
+      "Muối 2 Muỗng cà phê",
+      "Tiêu1/2 Muỗng cà phê",
+      "Nước dùng 2 Lít",
+      "Tương đậu nành 50 Gr"
+    ],
+    "ID": 19,
+    "IsFavorite": true,
+    "Description": "Lẩu kim chi cay kiểu Hàn là sự góp mặt của nhiều nguyên liệu thực phẩm Hàn Quốc quen thuộc như bánh gạo, tương ớt Gochujang, kim chi cải thảo, ... Thích hợp dùng cho bữa ăn gia đình trong những ngày trời lạnh.",
+    "Name": "Lẩu Kim Chi Cay Kiểu Hàn",
+    "Image": "lau_kim_chi.png"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bí đỏ đem hấp chín rồi đem tán nhuyễn. Cho bí đỏ, kem tươi, sữa, trứng, đường, bột mì đa dụng, bột bánh mì, men và muối vào thố rồi trộn đều. Dùng máy trộn bột bật máy trộn sang chế độ thấp nhất và để máy trộn khoảng 15 phút. Nếu bạn nhào bột bằng tay, thì nhào thêm 10 phút nữa là được"
+      },
+      {
+        "ImageName": "step_2_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Đậy thố bột bằng khăn ướt để bột nghỉ khoảng 1 giờ hoặc đến khi bột nở gấp 1,5 so với kích thước ban đầu. huẩn bị khuôn chữ nhật, chống dính cho khuôn bằng cách quết 1 lớp bơ mỏng. Sau đó, lấy khối bột ra nhào thêm 5 phút nữa để xẹp các bóng khí. Rồi chia bột ra thành 16 viên bằng nhau và vo tròn lại, xếp đều vào khuôn."
+      },
+      {
+        "ImageName": "step_3_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Dùng khăn đậy khuôn bánh lại để bánh nghỉ khoảng 1 giờ nữa bánh sẽ nở khoảng 1,5 lần so với kích thước ban đầu. Tiếp đó, dùng 1 quả trứng đánh tan với 1 muỗng cà phê nước rồi dùng cọ quét lên mặt bánh, rồi rắc hạt bí đỏ lên trên. Làm nóng lò ở nhiệt độ 350 độ F. Đặt khuôn bánh vào lò nướng trong khoảng 16-18 phút là bánh chín vàng đều. Sau đó, lấy bánh ra và quét lên bánh 1 lớp nước đường (2 muỗng cà phê đường hòa tan với 2 muỗng cà phê nước nóng: quét lên bánh sau khi nướng xong) để tăng hương vị và màu sắc cho bánh."
+      },
+      {
+        "ImageName": "step_4_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành."
+      }
+    ],
+    "Ingredients": [
+      "Bí đỏ 120 Gr",
+      "Kem sữa tươi 158 ml",
+      "Sữa tươi 75 ml",
+      "Trứng gà 1 Quả",
+      "Đường trắng 115 Gr",
+      "Bột mì 500 Gr",
+      "Bột mì 70 Gr",
+      "Men nở 11 Gr",
+      "Muối 7 Gr",
+      "Hạt bí 100 Gr"
+    ],
+    "ID": 20,
+    "IsFavorite": true,
+    "Description": "Bánh mì bí đỏ ăn ngon nhất khi vẫn còn nóng ấm, bánh mì thơm mềm quyện hương bí đỏ ngọt ngào. Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành. Với cách làm đơn giản này, bữa sáng của gia đình bạn sẽ trở nên phong phú, chất lượng hơn nhiều.",
+    "Name": "Bánh Mì Bí Đỏ Thơm Ngon",
+    "Image": "banh_mi_bi_do.jpg"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_1.png",
+        "VideoURL": "",
+        "Instruction": "Đậu hũ trắng cắt miếng vừa ăn. Xúc xích bò cắt lát mỏng xéo. Thịt nguội thái lát. (Có thể thêm thịt ba chỉ thái lát mỏng nếu thích). Hành boa rô cắt lát xéo. Thịt bò bằm nhỏ."
+      },
+      {
+        "ImageName": "step_2_1.png",
+        "VideoURL": "",
+        "Instruction": "Xếp xúc xích, thịt nguội, hành tây, kim chi, đậu hũ, thịt bò bằm vào nồi. Thêm hỗn hợp gia vị lên trên. Thêm nước dùng hầm xương vào, đun sôi khoảng 5 phút. Nêm muối và tiêu cho vừa ăn. Thêm một miếng phô mai lên trên. Thêm hành boa rô lên. Khi ăn múc ra chén, dùng nóng."
+      },
+      {
+        "ImageName": "step_3_1.png",
+        "VideoURL": "",
+        "Instruction": "Món lẩu có thể ăn cùng mì tôm hoặc cơm đều ngon. Vị cay thơm đặc trưng của lẩu thích hợp dùng trong những ngày trời trở lạnh nhé!"
+      }
+    ],
+    "Ingredients": [
+      "Kim chi cải thảo 300 Gr",
+      "Phô mai lá 1 Miếng",
+      "Xúc xích bò 4 Cây",
+      "Thịt bò 100 Gr",
+      "Đậu hũ trắng 1/2 Miếng",
+      "Bánh gạo 50 Gr",
+      "Hành tây 1/3 Củ",
+      "Thịt nguội 100 Gr",
+      "Mì tôm 2 Gói",
+      "Nước tương 1/2 Muỗng",
+      "Tỏi băm 1/2 Muỗng",
+      "Hành boa rô 1/2 Nhánh",
+      "Ớt bột 1 Muỗng",
+      "Tương ớt Hàn Quốc 1 Muỗng",
+      "Muối 2 Muỗng cà phê",
+      "Tiêu1/2 Muỗng cà phê",
+      "Nước dùng 2 Lít",
+      "Tương đậu nành 50 Gr"
+    ],
+    "ID": 21,
+    "IsFavorite": true,
+    "Description": "Lẩu kim chi cay kiểu Hàn là sự góp mặt của nhiều nguyên liệu thực phẩm Hàn Quốc quen thuộc như bánh gạo, tương ớt Gochujang, kim chi cải thảo, ... Thích hợp dùng cho bữa ăn gia đình trong những ngày trời lạnh.",
+    "Name": "Lẩu Kim Chi Cay Kiểu Hàn",
+    "Image": "lau_kim_chi.png"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bí đỏ đem hấp chín rồi đem tán nhuyễn. Cho bí đỏ, kem tươi, sữa, trứng, đường, bột mì đa dụng, bột bánh mì, men và muối vào thố rồi trộn đều. Dùng máy trộn bột bật máy trộn sang chế độ thấp nhất và để máy trộn khoảng 15 phút. Nếu bạn nhào bột bằng tay, thì nhào thêm 10 phút nữa là được"
+      },
+      {
+        "ImageName": "step_2_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Đậy thố bột bằng khăn ướt để bột nghỉ khoảng 1 giờ hoặc đến khi bột nở gấp 1,5 so với kích thước ban đầu. huẩn bị khuôn chữ nhật, chống dính cho khuôn bằng cách quết 1 lớp bơ mỏng. Sau đó, lấy khối bột ra nhào thêm 5 phút nữa để xẹp các bóng khí. Rồi chia bột ra thành 16 viên bằng nhau và vo tròn lại, xếp đều vào khuôn."
+      },
+      {
+        "ImageName": "step_3_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Dùng khăn đậy khuôn bánh lại để bánh nghỉ khoảng 1 giờ nữa bánh sẽ nở khoảng 1,5 lần so với kích thước ban đầu. Tiếp đó, dùng 1 quả trứng đánh tan với 1 muỗng cà phê nước rồi dùng cọ quét lên mặt bánh, rồi rắc hạt bí đỏ lên trên. Làm nóng lò ở nhiệt độ 350 độ F. Đặt khuôn bánh vào lò nướng trong khoảng 16-18 phút là bánh chín vàng đều. Sau đó, lấy bánh ra và quét lên bánh 1 lớp nước đường (2 muỗng cà phê đường hòa tan với 2 muỗng cà phê nước nóng: quét lên bánh sau khi nướng xong) để tăng hương vị và màu sắc cho bánh."
+      },
+      {
+        "ImageName": "step_4_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành."
+      }
+    ],
+    "Ingredients": [
+      "Bí đỏ 120 Gr",
+      "Kem sữa tươi 158 ml",
+      "Sữa tươi 75 ml",
+      "Trứng gà 1 Quả",
+      "Đường trắng 115 Gr",
+      "Bột mì 500 Gr",
+      "Bột mì 70 Gr",
+      "Men nở 11 Gr",
+      "Muối 7 Gr",
+      "Hạt bí 100 Gr"
+    ],
+    "ID": 22,
+    "IsFavorite": true,
+    "Description": "Bánh mì bí đỏ ăn ngon nhất khi vẫn còn nóng ấm, bánh mì thơm mềm quyện hương bí đỏ ngọt ngào. Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành. Với cách làm đơn giản này, bữa sáng của gia đình bạn sẽ trở nên phong phú, chất lượng hơn nhiều.",
+    "Name": "Bánh Mì Bí Đỏ Thơm Ngon",
+    "Image": "banh_mi_bi_do.jpg"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_1.png",
+        "VideoURL": "",
+        "Instruction": "Đậu hũ trắng cắt miếng vừa ăn. Xúc xích bò cắt lát mỏng xéo. Thịt nguội thái lát. (Có thể thêm thịt ba chỉ thái lát mỏng nếu thích). Hành boa rô cắt lát xéo. Thịt bò bằm nhỏ."
+      },
+      {
+        "ImageName": "step_2_1.png",
+        "VideoURL": "",
+        "Instruction": "Xếp xúc xích, thịt nguội, hành tây, kim chi, đậu hũ, thịt bò bằm vào nồi. Thêm hỗn hợp gia vị lên trên. Thêm nước dùng hầm xương vào, đun sôi khoảng 5 phút. Nêm muối và tiêu cho vừa ăn. Thêm một miếng phô mai lên trên. Thêm hành boa rô lên. Khi ăn múc ra chén, dùng nóng."
+      },
+      {
+        "ImageName": "step_3_1.png",
+        "VideoURL": "",
+        "Instruction": "Món lẩu có thể ăn cùng mì tôm hoặc cơm đều ngon. Vị cay thơm đặc trưng của lẩu thích hợp dùng trong những ngày trời trở lạnh nhé!"
+      }
+    ],
+    "Ingredients": [
+      "Kim chi cải thảo 300 Gr",
+      "Phô mai lá 1 Miếng",
+      "Xúc xích bò 4 Cây",
+      "Thịt bò 100 Gr",
+      "Đậu hũ trắng 1/2 Miếng",
+      "Bánh gạo 50 Gr",
+      "Hành tây 1/3 Củ",
+      "Thịt nguội 100 Gr",
+      "Mì tôm 2 Gói",
+      "Nước tương 1/2 Muỗng",
+      "Tỏi băm 1/2 Muỗng",
+      "Hành boa rô 1/2 Nhánh",
+      "Ớt bột 1 Muỗng",
+      "Tương ớt Hàn Quốc 1 Muỗng",
+      "Muối 2 Muỗng cà phê",
+      "Tiêu1/2 Muỗng cà phê",
+      "Nước dùng 2 Lít",
+      "Tương đậu nành 50 Gr"
+    ],
+    "ID": 23,
+    "IsFavorite": true,
+    "Description": "Lẩu kim chi cay kiểu Hàn là sự góp mặt của nhiều nguyên liệu thực phẩm Hàn Quốc quen thuộc như bánh gạo, tương ớt Gochujang, kim chi cải thảo, ... Thích hợp dùng cho bữa ăn gia đình trong những ngày trời lạnh.",
+    "Name": "Lẩu Kim Chi Cay Kiểu Hàn",
+    "Image": "lau_kim_chi.png"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bí đỏ đem hấp chín rồi đem tán nhuyễn. Cho bí đỏ, kem tươi, sữa, trứng, đường, bột mì đa dụng, bột bánh mì, men và muối vào thố rồi trộn đều. Dùng máy trộn bột bật máy trộn sang chế độ thấp nhất và để máy trộn khoảng 15 phút. Nếu bạn nhào bột bằng tay, thì nhào thêm 10 phút nữa là được"
+      },
+      {
+        "ImageName": "step_2_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Đậy thố bột bằng khăn ướt để bột nghỉ khoảng 1 giờ hoặc đến khi bột nở gấp 1,5 so với kích thước ban đầu. huẩn bị khuôn chữ nhật, chống dính cho khuôn bằng cách quết 1 lớp bơ mỏng. Sau đó, lấy khối bột ra nhào thêm 5 phút nữa để xẹp các bóng khí. Rồi chia bột ra thành 16 viên bằng nhau và vo tròn lại, xếp đều vào khuôn."
+      },
+      {
+        "ImageName": "step_3_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Dùng khăn đậy khuôn bánh lại để bánh nghỉ khoảng 1 giờ nữa bánh sẽ nở khoảng 1,5 lần so với kích thước ban đầu. Tiếp đó, dùng 1 quả trứng đánh tan với 1 muỗng cà phê nước rồi dùng cọ quét lên mặt bánh, rồi rắc hạt bí đỏ lên trên. Làm nóng lò ở nhiệt độ 350 độ F. Đặt khuôn bánh vào lò nướng trong khoảng 16-18 phút là bánh chín vàng đều. Sau đó, lấy bánh ra và quét lên bánh 1 lớp nước đường (2 muỗng cà phê đường hòa tan với 2 muỗng cà phê nước nóng: quét lên bánh sau khi nướng xong) để tăng hương vị và màu sắc cho bánh."
+      },
+      {
+        "ImageName": "step_4_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành."
+      }
+    ],
+    "Ingredients": [
+      "Bí đỏ 120 Gr",
+      "Kem sữa tươi 158 ml",
+      "Sữa tươi 75 ml",
+      "Trứng gà 1 Quả",
+      "Đường trắng 115 Gr",
+      "Bột mì 500 Gr",
+      "Bột mì 70 Gr",
+      "Men nở 11 Gr",
+      "Muối 7 Gr",
+      "Hạt bí 100 Gr"
+    ],
+    "ID": 24,
+    "IsFavorite": true,
+    "Description": "Bánh mì bí đỏ ăn ngon nhất khi vẫn còn nóng ấm, bánh mì thơm mềm quyện hương bí đỏ ngọt ngào. Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành. Với cách làm đơn giản này, bữa sáng của gia đình bạn sẽ trở nên phong phú, chất lượng hơn nhiều.",
+    "Name": "Bánh Mì Bí Đỏ Thơm Ngon",
+    "Image": "banh_mi_bi_do.jpg"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_1.png",
+        "VideoURL": "",
+        "Instruction": "Đậu hũ trắng cắt miếng vừa ăn. Xúc xích bò cắt lát mỏng xéo. Thịt nguội thái lát. (Có thể thêm thịt ba chỉ thái lát mỏng nếu thích). Hành boa rô cắt lát xéo. Thịt bò bằm nhỏ."
+      },
+      {
+        "ImageName": "step_2_1.png",
+        "VideoURL": "",
+        "Instruction": "Xếp xúc xích, thịt nguội, hành tây, kim chi, đậu hũ, thịt bò bằm vào nồi. Thêm hỗn hợp gia vị lên trên. Thêm nước dùng hầm xương vào, đun sôi khoảng 5 phút. Nêm muối và tiêu cho vừa ăn. Thêm một miếng phô mai lên trên. Thêm hành boa rô lên. Khi ăn múc ra chén, dùng nóng."
+      },
+      {
+        "ImageName": "step_3_1.png",
+        "VideoURL": "",
+        "Instruction": "Món lẩu có thể ăn cùng mì tôm hoặc cơm đều ngon. Vị cay thơm đặc trưng của lẩu thích hợp dùng trong những ngày trời trở lạnh nhé!"
+      }
+    ],
+    "Ingredients": [
+      "Kim chi cải thảo 300 Gr",
+      "Phô mai lá 1 Miếng",
+      "Xúc xích bò 4 Cây",
+      "Thịt bò 100 Gr",
+      "Đậu hũ trắng 1/2 Miếng",
+      "Bánh gạo 50 Gr",
+      "Hành tây 1/3 Củ",
+      "Thịt nguội 100 Gr",
+      "Mì tôm 2 Gói",
+      "Nước tương 1/2 Muỗng",
+      "Tỏi băm 1/2 Muỗng",
+      "Hành boa rô 1/2 Nhánh",
+      "Ớt bột 1 Muỗng",
+      "Tương ớt Hàn Quốc 1 Muỗng",
+      "Muối 2 Muỗng cà phê",
+      "Tiêu1/2 Muỗng cà phê",
+      "Nước dùng 2 Lít",
+      "Tương đậu nành 50 Gr"
+    ],
+    "ID": 25,
+    "IsFavorite": true,
+    "Description": "Lẩu kim chi cay kiểu Hàn là sự góp mặt của nhiều nguyên liệu thực phẩm Hàn Quốc quen thuộc như bánh gạo, tương ớt Gochujang, kim chi cải thảo, ... Thích hợp dùng cho bữa ăn gia đình trong những ngày trời lạnh.",
+    "Name": "Lẩu Kim Chi Cay Kiểu Hàn",
+    "Image": "lau_kim_chi.png"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bí đỏ đem hấp chín rồi đem tán nhuyễn. Cho bí đỏ, kem tươi, sữa, trứng, đường, bột mì đa dụng, bột bánh mì, men và muối vào thố rồi trộn đều. Dùng máy trộn bột bật máy trộn sang chế độ thấp nhất và để máy trộn khoảng 15 phút. Nếu bạn nhào bột bằng tay, thì nhào thêm 10 phút nữa là được"
+      },
+      {
+        "ImageName": "step_2_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Đậy thố bột bằng khăn ướt để bột nghỉ khoảng 1 giờ hoặc đến khi bột nở gấp 1,5 so với kích thước ban đầu. huẩn bị khuôn chữ nhật, chống dính cho khuôn bằng cách quết 1 lớp bơ mỏng. Sau đó, lấy khối bột ra nhào thêm 5 phút nữa để xẹp các bóng khí. Rồi chia bột ra thành 16 viên bằng nhau và vo tròn lại, xếp đều vào khuôn."
+      },
+      {
+        "ImageName": "step_3_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Dùng khăn đậy khuôn bánh lại để bánh nghỉ khoảng 1 giờ nữa bánh sẽ nở khoảng 1,5 lần so với kích thước ban đầu. Tiếp đó, dùng 1 quả trứng đánh tan với 1 muỗng cà phê nước rồi dùng cọ quét lên mặt bánh, rồi rắc hạt bí đỏ lên trên. Làm nóng lò ở nhiệt độ 350 độ F. Đặt khuôn bánh vào lò nướng trong khoảng 16-18 phút là bánh chín vàng đều. Sau đó, lấy bánh ra và quét lên bánh 1 lớp nước đường (2 muỗng cà phê đường hòa tan với 2 muỗng cà phê nước nóng: quét lên bánh sau khi nướng xong) để tăng hương vị và màu sắc cho bánh."
+      },
+      {
+        "ImageName": "step_4_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành."
+      }
+    ],
+    "Ingredients": [
+      "Bí đỏ 120 Gr",
+      "Kem sữa tươi 158 ml",
+      "Sữa tươi 75 ml",
+      "Trứng gà 1 Quả",
+      "Đường trắng 115 Gr",
+      "Bột mì 500 Gr",
+      "Bột mì 70 Gr",
+      "Men nở 11 Gr",
+      "Muối 7 Gr",
+      "Hạt bí 100 Gr"
+    ],
+    "ID": 26,
+    "IsFavorite": true,
+    "Description": "Bánh mì bí đỏ ăn ngon nhất khi vẫn còn nóng ấm, bánh mì thơm mềm quyện hương bí đỏ ngọt ngào. Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành. Với cách làm đơn giản này, bữa sáng của gia đình bạn sẽ trở nên phong phú, chất lượng hơn nhiều.",
+    "Name": "Bánh Mì Bí Đỏ Thơm Ngon",
+    "Image": "banh_mi_bi_do.jpg"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_1.png",
+        "VideoURL": "",
+        "Instruction": "Đậu hũ trắng cắt miếng vừa ăn. Xúc xích bò cắt lát mỏng xéo. Thịt nguội thái lát. (Có thể thêm thịt ba chỉ thái lát mỏng nếu thích). Hành boa rô cắt lát xéo. Thịt bò bằm nhỏ."
+      },
+      {
+        "ImageName": "step_2_1.png",
+        "VideoURL": "",
+        "Instruction": "Xếp xúc xích, thịt nguội, hành tây, kim chi, đậu hũ, thịt bò bằm vào nồi. Thêm hỗn hợp gia vị lên trên. Thêm nước dùng hầm xương vào, đun sôi khoảng 5 phút. Nêm muối và tiêu cho vừa ăn. Thêm một miếng phô mai lên trên. Thêm hành boa rô lên. Khi ăn múc ra chén, dùng nóng."
+      },
+      {
+        "ImageName": "step_3_1.png",
+        "VideoURL": "",
+        "Instruction": "Món lẩu có thể ăn cùng mì tôm hoặc cơm đều ngon. Vị cay thơm đặc trưng của lẩu thích hợp dùng trong những ngày trời trở lạnh nhé!"
+      }
+    ],
+    "Ingredients": [
+      "Kim chi cải thảo 300 Gr",
+      "Phô mai lá 1 Miếng",
+      "Xúc xích bò 4 Cây",
+      "Thịt bò 100 Gr",
+      "Đậu hũ trắng 1/2 Miếng",
+      "Bánh gạo 50 Gr",
+      "Hành tây 1/3 Củ",
+      "Thịt nguội 100 Gr",
+      "Mì tôm 2 Gói",
+      "Nước tương 1/2 Muỗng",
+      "Tỏi băm 1/2 Muỗng",
+      "Hành boa rô 1/2 Nhánh",
+      "Ớt bột 1 Muỗng",
+      "Tương ớt Hàn Quốc 1 Muỗng",
+      "Muối 2 Muỗng cà phê",
+      "Tiêu1/2 Muỗng cà phê",
+      "Nước dùng 2 Lít",
+      "Tương đậu nành 50 Gr"
+    ],
+    "ID": 27,
+    "IsFavorite": true,
+    "Description": "Lẩu kim chi cay kiểu Hàn là sự góp mặt của nhiều nguyên liệu thực phẩm Hàn Quốc quen thuộc như bánh gạo, tương ớt Gochujang, kim chi cải thảo, ... Thích hợp dùng cho bữa ăn gia đình trong những ngày trời lạnh.",
+    "Name": "Lẩu Kim Chi Cay Kiểu Hàn",
+    "Image": "lau_kim_chi.png"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bí đỏ đem hấp chín rồi đem tán nhuyễn. Cho bí đỏ, kem tươi, sữa, trứng, đường, bột mì đa dụng, bột bánh mì, men và muối vào thố rồi trộn đều. Dùng máy trộn bột bật máy trộn sang chế độ thấp nhất và để máy trộn khoảng 15 phút. Nếu bạn nhào bột bằng tay, thì nhào thêm 10 phút nữa là được"
+      },
+      {
+        "ImageName": "step_2_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Đậy thố bột bằng khăn ướt để bột nghỉ khoảng 1 giờ hoặc đến khi bột nở gấp 1,5 so với kích thước ban đầu. huẩn bị khuôn chữ nhật, chống dính cho khuôn bằng cách quết 1 lớp bơ mỏng. Sau đó, lấy khối bột ra nhào thêm 5 phút nữa để xẹp các bóng khí. Rồi chia bột ra thành 16 viên bằng nhau và vo tròn lại, xếp đều vào khuôn."
+      },
+      {
+        "ImageName": "step_3_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Dùng khăn đậy khuôn bánh lại để bánh nghỉ khoảng 1 giờ nữa bánh sẽ nở khoảng 1,5 lần so với kích thước ban đầu. Tiếp đó, dùng 1 quả trứng đánh tan với 1 muỗng cà phê nước rồi dùng cọ quét lên mặt bánh, rồi rắc hạt bí đỏ lên trên. Làm nóng lò ở nhiệt độ 350 độ F. Đặt khuôn bánh vào lò nướng trong khoảng 16-18 phút là bánh chín vàng đều. Sau đó, lấy bánh ra và quét lên bánh 1 lớp nước đường (2 muỗng cà phê đường hòa tan với 2 muỗng cà phê nước nóng: quét lên bánh sau khi nướng xong) để tăng hương vị và màu sắc cho bánh."
+      },
+      {
+        "ImageName": "step_4_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành."
+      }
+    ],
+    "Ingredients": [
+      "Bí đỏ 120 Gr",
+      "Kem sữa tươi 158 ml",
+      "Sữa tươi 75 ml",
+      "Trứng gà 1 Quả",
+      "Đường trắng 115 Gr",
+      "Bột mì 500 Gr",
+      "Bột mì 70 Gr",
+      "Men nở 11 Gr",
+      "Muối 7 Gr",
+      "Hạt bí 100 Gr"
+    ],
+    "ID": 28,
+    "IsFavorite": true,
+    "Description": "Bánh mì bí đỏ ăn ngon nhất khi vẫn còn nóng ấm, bánh mì thơm mềm quyện hương bí đỏ ngọt ngào. Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành. Với cách làm đơn giản này, bữa sáng của gia đình bạn sẽ trở nên phong phú, chất lượng hơn nhiều.",
+    "Name": "Bánh Mì Bí Đỏ Thơm Ngon",
+    "Image": "banh_mi_bi_do.jpg"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_1.png",
+        "VideoURL": "",
+        "Instruction": "Đậu hũ trắng cắt miếng vừa ăn. Xúc xích bò cắt lát mỏng xéo. Thịt nguội thái lát. (Có thể thêm thịt ba chỉ thái lát mỏng nếu thích). Hành boa rô cắt lát xéo. Thịt bò bằm nhỏ."
+      },
+      {
+        "ImageName": "step_2_1.png",
+        "VideoURL": "",
+        "Instruction": "Xếp xúc xích, thịt nguội, hành tây, kim chi, đậu hũ, thịt bò bằm vào nồi. Thêm hỗn hợp gia vị lên trên. Thêm nước dùng hầm xương vào, đun sôi khoảng 5 phút. Nêm muối và tiêu cho vừa ăn. Thêm một miếng phô mai lên trên. Thêm hành boa rô lên. Khi ăn múc ra chén, dùng nóng."
+      },
+      {
+        "ImageName": "step_3_1.png",
+        "VideoURL": "",
+        "Instruction": "Món lẩu có thể ăn cùng mì tôm hoặc cơm đều ngon. Vị cay thơm đặc trưng của lẩu thích hợp dùng trong những ngày trời trở lạnh nhé!"
+      }
+    ],
+    "Ingredients": [
+      "Kim chi cải thảo 300 Gr",
+      "Phô mai lá 1 Miếng",
+      "Xúc xích bò 4 Cây",
+      "Thịt bò 100 Gr",
+      "Đậu hũ trắng 1/2 Miếng",
+      "Bánh gạo 50 Gr",
+      "Hành tây 1/3 Củ",
+      "Thịt nguội 100 Gr",
+      "Mì tôm 2 Gói",
+      "Nước tương 1/2 Muỗng",
+      "Tỏi băm 1/2 Muỗng",
+      "Hành boa rô 1/2 Nhánh",
+      "Ớt bột 1 Muỗng",
+      "Tương ớt Hàn Quốc 1 Muỗng",
+      "Muối 2 Muỗng cà phê",
+      "Tiêu1/2 Muỗng cà phê",
+      "Nước dùng 2 Lít",
+      "Tương đậu nành 50 Gr"
+    ],
+    "ID": 29,
+    "IsFavorite": true,
+    "Description": "Lẩu kim chi cay kiểu Hàn là sự góp mặt của nhiều nguyên liệu thực phẩm Hàn Quốc quen thuộc như bánh gạo, tương ớt Gochujang, kim chi cải thảo, ... Thích hợp dùng cho bữa ăn gia đình trong những ngày trời lạnh.",
+    "Name": "Lẩu Kim Chi Cay Kiểu Hàn",
+    "Image": "lau_kim_chi.png"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bí đỏ đem hấp chín rồi đem tán nhuyễn. Cho bí đỏ, kem tươi, sữa, trứng, đường, bột mì đa dụng, bột bánh mì, men và muối vào thố rồi trộn đều. Dùng máy trộn bột bật máy trộn sang chế độ thấp nhất và để máy trộn khoảng 15 phút. Nếu bạn nhào bột bằng tay, thì nhào thêm 10 phút nữa là được"
+      },
+      {
+        "ImageName": "step_2_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Đậy thố bột bằng khăn ướt để bột nghỉ khoảng 1 giờ hoặc đến khi bột nở gấp 1,5 so với kích thước ban đầu. huẩn bị khuôn chữ nhật, chống dính cho khuôn bằng cách quết 1 lớp bơ mỏng. Sau đó, lấy khối bột ra nhào thêm 5 phút nữa để xẹp các bóng khí. Rồi chia bột ra thành 16 viên bằng nhau và vo tròn lại, xếp đều vào khuôn."
+      },
+      {
+        "ImageName": "step_3_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Dùng khăn đậy khuôn bánh lại để bánh nghỉ khoảng 1 giờ nữa bánh sẽ nở khoảng 1,5 lần so với kích thước ban đầu. Tiếp đó, dùng 1 quả trứng đánh tan với 1 muỗng cà phê nước rồi dùng cọ quét lên mặt bánh, rồi rắc hạt bí đỏ lên trên. Làm nóng lò ở nhiệt độ 350 độ F. Đặt khuôn bánh vào lò nướng trong khoảng 16-18 phút là bánh chín vàng đều. Sau đó, lấy bánh ra và quét lên bánh 1 lớp nước đường (2 muỗng cà phê đường hòa tan với 2 muỗng cà phê nước nóng: quét lên bánh sau khi nướng xong) để tăng hương vị và màu sắc cho bánh."
+      },
+      {
+        "ImageName": "step_4_0.jpg",
+        "VideoURL": "",
+        "Instruction": "Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành."
+      }
+    ],
+    "Ingredients": [
+      "Bí đỏ 120 Gr",
+      "Kem sữa tươi 158 ml",
+      "Sữa tươi 75 ml",
+      "Trứng gà 1 Quả",
+      "Đường trắng 115 Gr",
+      "Bột mì 500 Gr",
+      "Bột mì 70 Gr",
+      "Men nở 11 Gr",
+      "Muối 7 Gr",
+      "Hạt bí 100 Gr"
+    ],
+    "ID": 30,
+    "IsFavorite": true,
+    "Description": "Bánh mì bí đỏ ăn ngon nhất khi vẫn còn nóng ấm, bánh mì thơm mềm quyện hương bí đỏ ngọt ngào. Bạn có thể ăn bánh mì bí đỏ cùng một chút nutela hoặc dùng làm bữa sáng với một ly sữa đậu nành. Với cách làm đơn giản này, bữa sáng của gia đình bạn sẽ trở nên phong phú, chất lượng hơn nhiều.",
+    "Name": "Bánh Mì Bí Đỏ Thơm Ngon",
+    "Image": "banh_mi_bi_do.jpg"
+  },
+  {
+    "Directions": [
+      {
+        "ImageName": "step_1_1.png",
+        "VideoURL": "",
+        "Instruction": "Đậu hũ trắng cắt miếng vừa ăn. Xúc xích bò cắt lát mỏng xéo. Thịt nguội thái lát. (Có thể thêm thịt ba chỉ thái lát mỏng nếu thích). Hành boa rô cắt lát xéo. Thịt bò bằm nhỏ."
+      },
+      {
+        "ImageName": "step_2_1.png",
+        "VideoURL": "",
+        "Instruction": "Xếp xúc xích, thịt nguội, hành tây, kim chi, đậu hũ, thịt bò bằm vào nồi. Thêm hỗn hợp gia vị lên trên. Thêm nước dùng hầm xương vào, đun sôi khoảng 5 phút. Nêm muối và tiêu cho vừa ăn. Thêm một miếng phô mai lên trên. Thêm hành boa rô lên. Khi ăn múc ra chén, dùng nóng."
+      },
+      {
+        "ImageName": "step_3_1.png",
+        "VideoURL": "",
+        "Instruction": "Món lẩu có thể ăn cùng mì tôm hoặc cơm đều ngon. Vị cay thơm đặc trưng của lẩu thích hợp dùng trong những ngày trời trở lạnh nhé!"
+      }
+    ],
+    "Ingredients": [
+      "Kim chi cải thảo 300 Gr",
+      "Phô mai lá 1 Miếng",
+      "Xúc xích bò 4 Cây",
+      "Thịt bò 100 Gr",
+      "Đậu hũ trắng 1/2 Miếng",
+      "Bánh gạo 50 Gr",
+      "Hành tây 1/3 Củ",
+      "Thịt nguội 100 Gr",
+      "Mì tôm 2 Gói",
+      "Nước tương 1/2 Muỗng",
+      "Tỏi băm 1/2 Muỗng",
+      "Hành boa rô 1/2 Nhánh",
+      "Ớt bột 1 Muỗng",
+      "Tương ớt Hàn Quốc 1 Muỗng",
+      "Muối 2 Muỗng cà phê",
+      "Tiêu1/2 Muỗng cà phê",
+      "Nước dùng 2 Lít",
+      "Tương đậu nành 50 Gr"
+    ],
+    "ID": 31,
+    "IsFavorite": true,
+    "Description": "Lẩu kim chi cay kiểu Hàn là sự góp mặt của nhiều nguyên liệu thực phẩm Hàn Quốc quen thuộc như bánh gạo, tương ớt Gochujang, kim chi cải thảo, ... Thích hợp dùng cho bữa ăn gia đình trong những ngày trời lạnh.",
+    "Name": "Lẩu Kim Chi Cay Kiểu Hàn",
+    "Image": "lau_kim_chi.png"
+  }
+]
