@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FoodRecipeApp.Models;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Diagnostics;

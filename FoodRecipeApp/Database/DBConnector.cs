@@ -36,18 +36,27 @@ namespace FoodRecipeApp.Models
             InsertValues();
             return result;
         }
+
+        //Tam thoi nha
+        public DBConnector()
+        {
+            for(int i = 0; i < 4; i++)
+            {
+                InsertValues();
+            }
+        }
         private static void InsertValues()
         {
             string[] images = { "tra_sua_chai_latte.jpg", "sinh_to_baobab.jpg", "tom_chien.jpg", "canh_kim_chi.jpg" };
             StreamReader file = new StreamReader(AppDomain.CurrentDomain.BaseDirectory + "Database/data.txt");
-            string line = file.ReadLine();
+            string line = file.ReadLine(); //bỏ dòng đầu (Recipe)
             int i = 0;
             while (!string.IsNullOrEmpty(line))
             {
-                var name = file.ReadLine();
-                var des = file.ReadLine();
+                var name = file.ReadLine(); //dòng 2
+                var des = file.ReadLine();  //dòng 3
                 var isFav = file.ReadLine() == "0" ? false : true;
-                file.ReadLine();
+                file.ReadLine(); //dấu &
                 Recipe recipe = new Recipe();
 
                 recipe.Name = name;

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FoodRecipeApp.View;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -39,6 +40,17 @@ namespace FoodRecipeApp
         {
             int index = ListViewMenu.SelectedIndex;
             MoveCursorMenu(index);
+            switch (index)
+            {
+                case 0:
+                    MainGrid.Children.Clear();
+                    MainGrid.Children.Add(new UserControlHome());
+                    break;
+                case 1:
+                    MainGrid.Children.Clear();
+                    MainGrid.Children.Add(new UserControlFavoriteList());
+                    break;
+            }
         }
         private void MoveCursorMenu(int index)
         {

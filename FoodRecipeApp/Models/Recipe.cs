@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Windows.Media.Imaging;
 
 namespace FoodRecipeApp.Models
 {
@@ -8,6 +9,8 @@ namespace FoodRecipeApp.Models
         public bool IsFavorite { get; set; }
         public string Description { get; set; }
         public string Name { get; set; }
+
+        public BitmapImage Image { get; set; }
 
         public List<Direction> Directions;
         public List<Ingredient> Ingredients;
