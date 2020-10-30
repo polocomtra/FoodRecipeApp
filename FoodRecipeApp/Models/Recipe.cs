@@ -11,14 +11,13 @@ namespace FoodRecipeApp.Models
         public string Name { get; set; }
         public string Image { get; set; }
 
-        public BitmapImage Image { get; set; }
 
         public List<Direction> Directions;
         public List<string> Ingredients;
 
         public override string ToString()
         {
-            return $"ID-'{ID}' Name-'{Name}' Image-'{Image}' IsFav-{IsFavorite}";
+            return $"ID-'{ID}' Name-'{Name}' IsFav-{IsFavorite}";
         }
     }
 }

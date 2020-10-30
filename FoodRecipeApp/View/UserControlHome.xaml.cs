@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,20 +22,26 @@ namespace FoodRecipeApp.View
     /// Interaction logic for UserControlHome.xaml
     /// </summary>
     /// 
-    class User
-    {
-        public string Name { get; set; }
-        public string Image { get; set; }
-    }
     public partial class UserControlHome : UserControl
     {
-        BindingList<User> data = new BindingList<User>();
+        List<Recipe> data = new List<Recipe>();        
         public UserControlHome()
         {
             InitializeComponent();
-            data.Add(new User() { Name = "tai", Image = "../Images/mot1.jpg" });
-            data.Add(new User() { Name = "tien", Image = "../Images/mot2.jpg" });
+            data = RecipeDAO.GetAll();
             recipeList.ItemsSource = data;
+        }
+
+        private void FavoriteBtn_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void recipeList_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var index = recipeList.SelectedIndex;
+            Debug.WriteLine(index);
+            //Di chuyen toi trang Detail o day 
         }
     }
 }
