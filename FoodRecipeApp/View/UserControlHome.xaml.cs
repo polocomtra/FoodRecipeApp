@@ -34,14 +34,18 @@ namespace FoodRecipeApp.View
 
         private void FavoriteBtn_Click(object sender, RoutedEventArgs e)
         {
-            
+            //var rowItem = (sender as System.Windows.Controls.Primitives.ToggleButton).DataContext as Recipe;
+            //int index1 = rowItem.ID;
+            //Debug.WriteLine(rowItem);
+            RecipeDAO.Save(data);
         }
 
         private void recipeList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             var index = recipeList.SelectedIndex;
             Debug.WriteLine(index);
-            //Di chuyen toi trang Detail o day 
+            //Di chuyen toi trang Detail o day
+
         }
     }
 }

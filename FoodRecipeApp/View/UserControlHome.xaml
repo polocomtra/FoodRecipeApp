@@ -18,9 +18,22 @@
                     <StackPanel>
                         <Image Source="{Binding Image}" Width="150" Height="150"></Image>
                         <TextBlock Text="{Binding Name}" FontSize="18" FontWeight="DemiBold" Margin="3"></TextBlock>
-                        <Button x:Name="FavoriteBtn" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="3" Background=" #ff99ff" Click="FavoriteBtn_Click" >
-                            <materialDesign:PackIcon Kind="HeartCircleOutline"  />
-                        </Button>
+                        <ToggleButton
+                            x:Name="FavoriteBtn"
+                            IsChecked="{Binding IsFavorite}"
+                            Checked="FavoriteBtn_Click"
+                            Unchecked="FavoriteBtn_Click"
+                            Style="{StaticResource MaterialDesignFlatPrimaryToggleButton}"
+                            ToolTip="MaterialDesignFlatPrimaryToggleButton"
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Bottom"
+                            Margin="3" 
+                            Background=" #ff99ff">
+                            <materialDesign:PackIcon
+                            Kind="Heart"
+                            Height="21"
+                            Width="21" />
+                        </ToggleButton>
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>

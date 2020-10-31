@@ -76,6 +76,9 @@
     <Compile Include="SplashWindows.xaml.cs">
       <DependentUpon>SplashWindows.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\UserControlDetail.xaml.cs">
+      <DependentUpon>UserControlDetail.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\UserControlFavoriteList.xaml.cs">
       <DependentUpon>UserControlFavoriteList.xaml</DependentUpon>
     </Compile>
@@ -95,6 +98,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="SplashWindows.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\UserControlDetail.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
