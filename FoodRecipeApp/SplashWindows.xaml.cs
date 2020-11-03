@@ -117,6 +117,7 @@ namespace FoodRecipeApp
 
         private void CloseSplashWindowBtn(object sender, RoutedEventArgs e)
         {
+            timer.Stop();
             CloseSplashWindow();
         }
     }
