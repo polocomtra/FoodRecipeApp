@@ -5,14 +5,25 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:FoodRecipeApp.View"
              mc:Ignorable="d" 
-             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-             d:DesignHeight="450" d:DesignWidth="800"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" 
+             d:DesignWidth="800" d:DesignHeight="600"
              Width="auto" Height="auto">
     <UserControl.Resources>
         <local:AbsoluteConverter x:Key="AbsoluteConverter" />
     </UserControl.Resources>
-    <Grid Background="#f2f2f2" x:Name="recipeGrid">
-        <ListView x:Name="recipeList" SelectionChanged="recipeList_SelectionChanged">
+    <DockPanel Background="#fefefe" LastChildFill="True">
+        <Grid DockPanel.Dock="Top" Height="50">
+            <TextBlock x:Name="keywordPlaceholderTextBlock" Text="Enter keyword" Padding="32 0 0 0" VerticalAlignment="Center" FontStyle="Italic" Margin="5"></TextBlock>
+            <TextBox x:Name="keywordTextBox" GotFocus="keywordTextBox_GotFocus" LostFocus="keywordTextBox_LostFocus" Background="Transparent" Margin="5" VerticalContentAlignment="center" Padding="32 0 0 0 "></TextBox>
+            <materialDesign:PackIcon Kind="Search" VerticalAlignment="Center" Height="32" Width="32" />
+        </Grid>
+        <StackPanel DockPanel.Dock="Bottom" Background="#d9d9d9" Height="50"></StackPanel>
+        <ListView x:Name="recipeList" SelectionChanged="recipeList_SelectionChanged" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel></WrapPanel>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <StackPanel>
@@ -38,5 +49,5 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-    </Grid>
+    </DockPanel>
 </UserControl>

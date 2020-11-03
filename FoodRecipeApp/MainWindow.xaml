@@ -13,7 +13,7 @@
         TextOptions.TextRenderingMode="Auto"
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}"
-        Title="FoodRecipe" Height="600" Width="1024" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None"> 
+        Title="FoodRecipe" Height="auto" Width="auto" WindowStartupLocation="CenterScreen"  WindowStyle="None" ResizeMode="CanResize"> 
     <Grid Background="#FFEEEEEE" MouseDown="Grid_MouseDown">
         <StackPanel VerticalAlignment="Top">
             <Grid Background="#FF8C00" Height="30" >
@@ -30,9 +30,8 @@
         </Grid>
         <Grid VerticalAlignment="Top" Panel.ZIndex="1000" HorizontalAlignment="Left" Width="250" Height="100" Margin="0 50">
             <StackPanel Orientation="Horizontal">
-                <materialDesign:PackIcon Kind="Search" Width="30" Height="30" VerticalAlignment="Center" Margin="5" />
-                <!--<TextBlock Text="Home" FontSize="17" VerticalAlignment="Center" FontWeight="Bold" Margin="20 0"></TextBlock>-->
-                <TextBox BorderThickness="1" Width="200" Height="30" BorderBrush="Gray"></TextBox>
+                <Image Margin="10" Source="./Images/mainIcon.jpg" RenderOptions.BitmapScalingMode="HighQuality" Height="100" Width="100" ></Image>
+                
             </StackPanel>
         </Grid>
         <Grid HorizontalAlignment="Left" Background="#d9d9d9" Width="250" Margin="0 30 0 0">

@@ -38,7 +38,7 @@ namespace FoodRecipeApp.View
             //int index1 = rowItem.ID;
             //Debug.WriteLine(rowItem);
             RecipeDAO.Save(data);
-        }
+        } 
 
         private void recipeList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -46,6 +46,19 @@ namespace FoodRecipeApp.View
             Debug.WriteLine(index);
             //Di chuyen toi trang Detail o day
 
+        }
+
+        private void keywordTextBox_GotFocus(object sender, RoutedEventArgs e)
+        {
+            keywordPlaceholderTextBlock.Visibility = Visibility.Hidden;
+        }
+
+        private void keywordTextBox_LostFocus(object sender, RoutedEventArgs e)
+        {
+            if(keywordPlaceholderTextBlock.Text.Length == 0)
+            {
+                keywordPlaceholderTextBlock.Visibility = Visibility.Visible;
+            }
         }
     }
 }

@@ -10,9 +10,13 @@
     <UserControl.Resources>
         <local:AbsoluteConverter x:Key="AbsoluteConverter" />
     </UserControl.Resources>
-    <Grid Background="#f2f2f2" x:Name="recipeGrid">
-        <ListView x:Name="recipeList" SelectionChanged="recipeList_SelectionChanged">
-
+    <Grid x:Name="recipeGrid" Background="#fefefe">
+        <ListView x:Name="recipeList" SelectionChanged="recipeList_SelectionChanged" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel></WrapPanel>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
             <ListView.ItemContainerStyle>
                 <Style TargetType="ListViewItem">
                     <Style.Triggers>
@@ -47,7 +51,8 @@
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>
-            
+
         </ListView>
     </Grid>
+
 </UserControl>
