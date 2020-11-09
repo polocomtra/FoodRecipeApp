@@ -17,7 +17,7 @@ namespace FoodRecipeApp.Models
 
         public override string ToString()
         {
-            return $"ID-'{ID}' Name-'{Name}' IsFav-{IsFavorite}";
+            return $"ID-'{ID}' Name-'{Name}' Image-'{Image}' IsFav-{IsFavorite}";
         }
     }
 }

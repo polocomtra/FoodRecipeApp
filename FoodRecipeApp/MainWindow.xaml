@@ -13,7 +13,7 @@
         TextOptions.TextRenderingMode="Auto"
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}"
-        Title="FoodRecipe" Height="auto" Width="auto" WindowStartupLocation="CenterScreen"  WindowStyle="None" ResizeMode="CanResize"> 
+        Title="FoodRecipe" Height="auto" Width="auto" WindowStartupLocation="CenterScreen"  WindowStyle="None" ResizeMode="CanResize">
     <Grid Background="#FFEEEEEE" MouseDown="Grid_MouseDown">
         <StackPanel VerticalAlignment="Top">
             <Grid Background="#FF8C00" Height="30" >
@@ -25,20 +25,20 @@
                 </StackPanel>
             </Grid>
         </StackPanel>
-        <Grid Margin="255 35 0 0">
-            <Grid x:Name="MainGrid" VerticalAlignment="Center" HorizontalAlignment="Center"></Grid>
+        <Grid x:Name="MainGrid" Margin="255 35 0 0">
+            
         </Grid>
         <Grid VerticalAlignment="Top" Panel.ZIndex="1000" HorizontalAlignment="Left" Width="250" Height="100" Margin="0 50">
             <StackPanel Orientation="Horizontal">
                 <Image Margin="10" Source="./Images/mainIcon.jpg" RenderOptions.BitmapScalingMode="HighQuality" Height="100" Width="100" ></Image>
-                
+
             </StackPanel>
         </Grid>
         <Grid HorizontalAlignment="Left" Background="#d9d9d9" Width="250" Margin="0 30 0 0">
             <materialDesign:TransitioningContent x:Name="TransitionContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft,Duration=0:0:0.2}">
                 <Grid x:Name="GridCursor" Margin="0 150 0 0" Width="10" Background="#FF8C00" HorizontalAlignment="Left" Height="60" VerticalAlignment="Top"></Grid>
             </materialDesign:TransitioningContent>
-            <ListView x:Name="ListViewMenu" Margin="0 150" FontSize="18" SelectionChanged="ListViewMenu_SelectionChanged" SelectedIndex="0">
+            <ListView x:Name="ListViewMenu" Margin="0 150, 0, 0" FontSize="18" SelectionChanged="ListViewMenu_SelectionChanged" SelectedIndex="0">
                 <ListViewItem Height="60">
                     <StackPanel Orientation="Horizontal">
                         <materialDesign:PackIcon Kind="HomeOutline" Width="30" Height="30" VerticalAlignment="Center" Margin="5" />

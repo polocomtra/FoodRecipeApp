@@ -50,6 +50,10 @@ namespace FoodRecipeApp
                     MainGrid.Children.Clear();
                     MainGrid.Children.Add(new UserControlFavoriteList());
                     break;
+                case 2:
+                    MainGrid.Children.Clear();
+                    MainGrid.Children.Add(new AddRecipeUserControl());
+                    break;
             }
         }
         private void MoveCursorMenu(int index)
