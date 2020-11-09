@@ -25,8 +25,8 @@
                 </StackPanel>
             </Grid>
         </StackPanel>
-        <Grid x:Name="MainGrid" Margin="255 35 0 0">
-            
+        <Grid Margin="255 35 0 0">
+            <Grid x:Name="MainGrid" VerticalAlignment="Center" HorizontalAlignment="Center"></Grid>
         </Grid>
         <Grid VerticalAlignment="Top" Panel.ZIndex="1000" HorizontalAlignment="Left" Width="250" Height="100" Margin="0 50">
             <StackPanel Orientation="Horizontal">
