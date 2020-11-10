@@ -1,4 +1,5 @@
 ﻿using FoodRecipeApp.View;
+using MaterialDesignThemes.Wpf;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,7 +32,7 @@ namespace FoodRecipeApp
             DragMove();
         }
 
-        private void exitBtn_Click(object sender, RoutedEventArgs e)
+        private void ExitBtn_Click(object sender, RoutedEventArgs e)
         {
             App.Current.Shutdown();
         }
@@ -60,6 +61,24 @@ namespace FoodRecipeApp
         {
             TransitionContentSlide.OnApplyTemplate();
             GridCursor.Margin = new Thickness(0, (150 + (60 * index)), 0, 0);
+        }
+
+        private void MinimizeBtn_Click(object sender, RoutedEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
+        }
+
+        private void MaximizeBtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (this.WindowState == WindowState.Maximized)
+            {
+                this.WindowState = WindowState.Normal;
+                MaximizeBtn.Content = new PackIcon() { Kind = PackIconKind.WindowMaximize };
+            } else
+            {
+                this.WindowState = WindowState.Maximized;
+                MaximizeBtn.Content = new PackIcon() { Kind = PackIconKind.WindowRestore};
+            }
         }
     }
 }

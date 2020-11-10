@@ -17,16 +17,22 @@
     <Grid Background="#FFEEEEEE" MouseDown="Grid_MouseDown">
         <StackPanel VerticalAlignment="Top">
             <Grid Background="#FF8C00" Height="30" >
-                <TextBlock Text="Food Recipes" FontSize="16"  Foreground="#e6e6e6" Padding="10 5 "></TextBlock>
+                <TextBlock Text="Food Recipes" FontSize="16"  Foreground="#e6e6e6" Padding="10 5"></TextBlock>
                 <StackPanel HorizontalAlignment="Right" Orientation="Horizontal" Margin="10 0">
-                    <Button x:Name="exitBtn" Width="30" Height="30" Background="{x:Null}" FontWeight="Bold" BorderBrush="{x:Null}" Padding="0" Foreground="#FFFFFF" Margin="0 0 10 0" Click="exitBtn_Click">
-                        <materialDesign:PackIcon Kind="PowerStandby" />
+                    <Button x:Name="MinimizeBtn" Width="30" Height="30" Background="{x:Null}" FontWeight="Bold" BorderBrush="{x:Null}" Padding="0" Foreground="#FFFFFF" Margin="0 0 10 0" Click="MinimizeBtn_Click">
+                        <materialDesign:PackIcon Kind="WindowMinimize" />
+                    </Button>
+                    <Button x:Name="MaximizeBtn" Width="30" Height="30" Background="{x:Null}" FontWeight="Bold" BorderBrush="{x:Null}" Padding="0" Foreground="#FFFFFF" Margin="0 0 10 0" Click="MaximizeBtn_Click">
+                        <materialDesign:PackIcon Kind="WindowMaximize" />
+                    </Button>
+                    <Button x:Name="ExitBtn" Width="30" Height="30" Background="{x:Null}" FontWeight="Bold" BorderBrush="{x:Null}" Padding="0" Foreground="#FFFFFF" Margin="0 0 10 0" Click="ExitBtn_Click">
+                        <materialDesign:PackIcon Kind="WindowClose" />
                     </Button>
                 </StackPanel>
             </Grid>
         </StackPanel>
         <Grid Margin="255 35 0 0">
-            <Grid x:Name="MainGrid" VerticalAlignment="Center" HorizontalAlignment="Center"></Grid>
+            <Grid x:Name="MainGrid" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"></Grid>
         </Grid>
         <Grid VerticalAlignment="Top" Panel.ZIndex="1000" HorizontalAlignment="Left" Width="250" Height="100" Margin="0 50">
             <StackPanel Orientation="Horizontal">

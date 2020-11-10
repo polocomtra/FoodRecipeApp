@@ -70,6 +70,7 @@
     </ApplicationDefinition>
     <Compile Include="Controller\RecipeController.cs" />
     <Compile Include="Converter\AbsoluteConverter.cs" />
+    <Compile Include="Converter\VNCharacterUtils.cs" />
     <Compile Include="Models\Direction.cs" />
     <Compile Include="Models\Recipe.cs" />
     <Compile Include="Models\RecipeDAO.cs" />
@@ -180,9 +181,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Style\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Images\banh_my_bi_do.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

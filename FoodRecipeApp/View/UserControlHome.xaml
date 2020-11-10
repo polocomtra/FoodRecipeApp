@@ -14,7 +14,7 @@
     <DockPanel Background="#fefefe" LastChildFill="True">
         <Grid DockPanel.Dock="Top" Height="50">
             <TextBlock x:Name="keywordPlaceholderTextBlock" Text="Enter keyword" Padding="32 0 0 0" VerticalAlignment="Center" FontStyle="Italic" Margin="5"></TextBlock>
-            <TextBox x:Name="keywordTextBox" GotFocus="keywordTextBox_GotFocus" LostFocus="keywordTextBox_LostFocus" Background="Transparent" Margin="5" VerticalContentAlignment="center" Padding="32 0 0 0 "></TextBox>
+            <TextBox x:Name="keywordTextBox" TextChanged="KeywordTextBox_TextChanged" GotFocus="keywordTextBox_GotFocus" LostFocus="keywordTextBox_LostFocus" Background="Transparent" Margin="5" VerticalContentAlignment="center" Padding="32 0 0 0 "></TextBox>
             <materialDesign:PackIcon Kind="Search" VerticalAlignment="Center" Height="32" Width="32" />
         </Grid>
         <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" Background="#d9d9d9" Height="50">
