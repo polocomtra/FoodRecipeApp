@@ -149,6 +149,7 @@ namespace FoodRecipeApp.View
             NameTextBox.Text = "";
             DescriptionTextBox.Text = "";
             RecipeImageGrid.DataContext = "";
+            RecipeImageButton.Opacity = 1;
             ingredients.Clear();
             directions.Clear();
         }

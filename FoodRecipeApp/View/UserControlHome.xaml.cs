@@ -1,4 +1,5 @@
-﻿using FoodRecipeApp.Models;
+﻿using FoodRecipeApp.Converter;
+using FoodRecipeApp.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -35,6 +36,7 @@ namespace FoodRecipeApp.View
         public UserControlHome()
         {
             InitializeComponent();
+            Debug.WriteLine("init usercontrolhome");
             data = RecipeDAO.GetAll();
             int itemCount = data.Count;
             for(int i = 0; i < itemCount; i++)
@@ -139,6 +141,40 @@ namespace FoodRecipeApp.View
                 view.View.Refresh();
             }
             ShowCurrentPageIndex();
+        }
+
+        private async void KeywordTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            int startLength = keywordTextBox.Text.Length;
+            Debug.WriteLine("Text changed: " + keywordTextBox.Text);
+            await Task.Delay(150);
+            if (startLength == keywordTextBox.Text.Length)
+            {
+                Search(keywordTextBox.Text);
+            }
+        }
+
+        private void Search(string key)
+        {
+            if (currentPageIndex != 0)
+            {
+                currentPageIndex = 0;
+                view.View.Refresh();
+            }
+            ShowCurrentPageIndex();
+            var rkey = VNCharacterUtils.RemoveAccent(key.Trim().ToLower());
+            recipes.Clear();
+            var collection = data.Where(e => IsMatch(e.Name, rkey));
+            foreach (var item in collection)
+            {
+                recipes.Add(item);
+            }
+        }
+
+        private bool IsMatch(string name, string key)
+        {
+            var result = VNCharacterUtils.RemoveAccent(name.ToLower()).Contains(key);
+            return result;
         }
     }
 }
