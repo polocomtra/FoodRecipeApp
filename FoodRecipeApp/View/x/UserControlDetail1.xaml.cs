@@ -21,22 +21,23 @@ namespace FoodRecipeApp.View
     /// <summary>
     /// Interaction logic for UserControlDetail.xaml
     /// </summary>
-    public partial class UserControlDetail : Window
+    public partial class UserControlDetail : Page
     {
-        public Recipe Reci { get; set; }
+        public Recipe Recipe { get; set; }
         public UserControlDetail()
         {
             InitializeComponent();
         }
+
         public UserControlDetail(Recipe recipe)
         {
             InitializeComponent();
-            Reci = new Recipe();
-            Reci = recipe;
-            Debug.WriteLine(Reci);
-            RecipeDetailShow.DataContext = Reci;
-            IngredientsList.ItemsSource = Reci.Ingredients;
-            DirectionsList.DataContext = Reci.Directions;
+            Recipe repde = recipe;
+            Debug.WriteLine(repde);
+            this.Recipe = repde;
+            this.RecipeDetail.DataContext = repde;
         }
+
+    
     }
 }

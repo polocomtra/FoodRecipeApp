@@ -1,14 +1,56 @@
-﻿<Page x:Class="FoodRecipeApp.View.UserControlDetail"
-      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:FoodRecipeApp.View"
-      mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="UserControlDetail">
-
+﻿<Window x:Class="FoodRecipeApp.View.UserControlDetail"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FoodRecipeApp.View"
+        mc:Ignorable="d"
+        Title="Recipe Detail" Height="600" Width="1024"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+    <Window.Icon>
+        <DrawingImage />
+    </Window.Icon>
+    <Window.Resources>
+        <local:AbsoluteConverter x:Key="AbsoluteConverter" />
+    </Window.Resources>
     <Grid>
-        
+        <Grid HorizontalAlignment="Left" Width="340">
+            <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                <StackPanel x:Name="RecipeDetailShow" Width="300">
+                    <TextBlock Text="{Binding Name}" TextWrapping="Wrap" FontSize="20" FontWeight="Bold" Margin="0,20,0,20"></TextBlock>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Description}" TextWrapping="Wrap" Width="190" Margin="0,0,10,0" TextAlignment="Justify"></TextBlock>
+                        <Image Source="{Binding Image, Converter={StaticResource AbsoluteConverter}}" Width="100"></Image>
+                    </StackPanel>
+
+                    <Label FontWeight="Bold" FontSize="16" Margin="0,15,0,15">Nguyên liệu:</Label>
+                    <ListView x:Name="IngredientsList">
+                        <ListView.Template>
+                            <ControlTemplate>
+                                <ItemsPresenter></ItemsPresenter>
+                            </ControlTemplate>
+                        </ListView.Template>
+                    </ListView>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+
+        <Grid Margin="340,0,0,0" >
+            <TextBlock Text="Các bước thực hiện:" TextWrapping="Wrap" FontSize="16" FontWeight="Bold" Margin="10,25,0,500"/>
+            <ListView x:Name="DirectionsList" ItemsSource="{Binding}" Margin="0,55,0,0">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Width="625" Orientation="Horizontal">
+                            <StackPanel Width="410">
+                                <TextBlock Text="{Binding VideoURL}" TextWrapping="Wrap" TextAlignment="Justify"/>
+                                <TextBlock Text="{Binding Instruction}"  TextWrapping="Wrap" TextAlignment="Justify"/>
+                            </StackPanel>
+                            <Image Source="{Binding ImageName, Converter={StaticResource AbsoluteConverter}}" Width="200" Height="200" Margin="10,0,0,0"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
     </Grid>
-</Page>
+</Window>

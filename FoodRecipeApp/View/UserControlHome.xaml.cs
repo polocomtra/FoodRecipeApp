@@ -75,9 +75,6 @@ namespace FoodRecipeApp.View
 
         private void FavoriteBtn_Click(object sender, RoutedEventArgs e)
         {
-            //var rowItem = (sender as System.Windows.Controls.Primitives.ToggleButton).DataContext as Recipe;
-            //int index1 = rowItem.ID;
-            //Debug.WriteLine(rowItem);
             RecipeDAO.Save(data);
         } 
 
@@ -85,8 +82,10 @@ namespace FoodRecipeApp.View
         {
             var index = recipeList.SelectedIndex;
             Debug.WriteLine(index);
-            //Di chuyen toi trang Detail o day
-
+            Recipe r = data[index];
+            var detail = new UserControlDetail(r);
+            detail.Show();
+            detail.Topmost = true;
         }
 
         private void keywordTextBox_GotFocus(object sender, RoutedEventArgs e)
