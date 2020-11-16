@@ -37,6 +37,21 @@ namespace FoodRecipeApp.View
             RecipeDetailShow.DataContext = Reci;
             IngredientsList.ItemsSource = Reci.Ingredients;
             DirectionsList.DataContext = Reci.Directions;
+            DirectionsList1.DataContext = Reci.Directions;
+            YTlink.DataContext = Reci.Directions[0];
+        }
+        private void ScrollViewer_PreviewMouseWheel(object sender, MouseWheelEventArgs e)
+        {
+            ScrollViewer scrollViewer = (ScrollViewer)sender;
+            if (e.Delta < 0)
+            {
+                scrollViewer.LineRight();
+            }
+            else
+            {
+                scrollViewer.LineLeft();
+            }
+            e.Handled = true;
         }
     }
 }

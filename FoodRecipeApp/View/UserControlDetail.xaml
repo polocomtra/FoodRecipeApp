@@ -4,8 +4,9 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FoodRecipeApp.View"
+        xmlns:cef="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf"
         mc:Ignorable="d"
-        Title="Recipe Detail" Height="600" Width="1024"
+        Title="Recipe Detail" Height="800" Width="1024"
         WindowStartupLocation="CenterScreen"
         ResizeMode="NoResize">
     <Window.Icon>
@@ -15,8 +16,8 @@
         <local:AbsoluteConverter x:Key="AbsoluteConverter" />
     </Window.Resources>
     <Grid>
-        <Grid HorizontalAlignment="Left" Width="340">
-            <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+        <Grid HorizontalAlignment="Left" Width="340" Margin="0,0,0,200">
+            <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" CanContentScroll="False">
                 <StackPanel x:Name="RecipeDetailShow" Width="300">
                     <TextBlock Text="{Binding Name}" TextWrapping="Wrap" FontSize="20" FontWeight="Bold" Margin="0,20,0,20"></TextBlock>
                     <StackPanel Orientation="Horizontal">
@@ -36,21 +37,67 @@
             </ScrollViewer>
         </Grid>
 
-        <Grid Margin="340,0,0,0" >
+        <Grid Margin="340,0,0,200" >
             <TextBlock Text="Các bước thực hiện:" TextWrapping="Wrap" FontSize="16" FontWeight="Bold" Margin="10,25,0,500"/>
-            <ListView x:Name="DirectionsList" ItemsSource="{Binding}" Margin="0,55,0,0">
+            <ListView x:Name="DirectionsList" ItemsSource="{Binding}" Margin="0,55,0,0"  ScrollViewer.CanContentScroll="False">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <StackPanel Width="625" Orientation="Horizontal">
-                            <StackPanel Width="410">
-                                <TextBlock Text="{Binding VideoURL}" TextWrapping="Wrap" TextAlignment="Justify"/>
-                                <TextBlock Text="{Binding Instruction}"  TextWrapping="Wrap" TextAlignment="Justify"/>
-                            </StackPanel>
-                            <Image Source="{Binding ImageName, Converter={StaticResource AbsoluteConverter}}" Width="200" Height="200" Margin="10,0,0,0"/>
+                        <StackPanel Width="625" Orientation="Horizontal" Margin="0,10,0,10">
+                            <TextBlock Text="{Binding Instruction}"  TextWrapping="Wrap" TextAlignment="Justify" Width="425"/>
+                            <Image Source="{Binding ImageName, Converter={StaticResource AbsoluteConverter}}" MaxWidth="175" Margin="20,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
                         </StackPanel>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+        </Grid>
+
+        <Grid VerticalAlignment="Bottom" Height="200">
+            <Grid x:Name="YTlink" HorizontalAlignment="Left" Width="340">
+                <cef:ChromiumWebBrowser Address="{Binding VideoURL}"></cef:ChromiumWebBrowser>
+            </Grid>
+            <Grid Margin="340,0,0,0">
+
+
+
+                <ScrollViewer HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Disabled" PreviewMouseWheel="ScrollViewer_PreviewMouseWheel">
+                    <ListView x:Name="DirectionsList1" ItemsSource="{Binding}" ScrollViewer.CanContentScroll="False">
+
+                        <ListView.Resources>
+                            <Style x:Key="ScaleStyle" TargetType="Image">
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Margin" Value="-10,-50,0,0"></Setter>
+                                        <Setter Property="RenderTransform">
+                                            <Setter.Value>
+                                                <ScaleTransform ScaleX="2.5" ScaleY="2.5"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </ListView.Resources>
+
+                        <ListView.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <StackPanel Orientation="Horizontal"></StackPanel>
+                            </ItemsPanelTemplate>
+                        </ListView.ItemsPanel>
+
+                        <ListView.Template>
+                            <ControlTemplate>
+                                <ItemsPresenter></ItemsPresenter>
+                            </ControlTemplate>
+                        </ListView.Template>
+
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <Image Source="{Binding ImageName, Converter={StaticResource AbsoluteConverter}}" Style="{StaticResource ScaleStyle}" MaxHeight="150" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                </Image>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </ScrollViewer>
+            </Grid>
         </Grid>
     </Grid>
 </Window>

@@ -63,12 +63,6 @@
                         <TextBlock Text="Add Recipe" FontSize="17" VerticalAlignment="Center" FontWeight="Bold" Margin="20 0"></TextBlock>
                     </StackPanel>
                 </ListViewItem>
-                <ListViewItem Height="60">
-                    <StackPanel Orientation="Horizontal">
-                        <materialDesign:PackIcon Kind="FormatListBulleted" Width="30" Height="30" VerticalAlignment="Center" Margin="5" />
-                        <TextBlock Text="Detail" FontSize="17" VerticalAlignment="Center" FontWeight="Bold" Margin="20 0"></TextBlock>
-                    </StackPanel>
-                </ListViewItem>
             </ListView>
         </Grid>
     </Grid>
