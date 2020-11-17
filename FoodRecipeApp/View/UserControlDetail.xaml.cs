@@ -24,6 +24,8 @@ namespace FoodRecipeApp.View
     public partial class UserControlDetail : Window
     {
         public Recipe Reci { get; set; }
+        private int carouselIndex = 0;
+
         public UserControlDetail()
         {
             InitializeComponent();
@@ -31,9 +33,9 @@ namespace FoodRecipeApp.View
         public UserControlDetail(Recipe recipe)
         {
             InitializeComponent();
-            Reci = new Recipe();
             Reci = recipe;
             Debug.WriteLine(Reci);
+            Carousel.Visibility = Visibility.Hidden;
             RecipeDetailShow.DataContext = Reci;
             IngredientsList.ItemsSource = Reci.Ingredients;
             DirectionsList.DataContext = Reci.Directions;
@@ -54,6 +56,50 @@ namespace FoodRecipeApp.View
             e.Handled = true;
         }
 
-        
+        private void CarouselPrevBtn_Click(object sender, RoutedEventArgs e)
+        {
+            ShowCarousel(carouselIndex - 1);
+        }
+
+        private void CarouselNextBtn_Click(object sender, RoutedEventArgs e)
+        {
+            ShowCarousel(carouselIndex + 1);
+        }
+
+        private void Image_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            Image image = sender as Image;
+            if (image != null)
+            {
+                var dir = image.DataContext as Direction;
+                if (dir != null)
+                {
+                    var index = Reci.Directions.IndexOf(dir);
+                    if (index >= 0)
+                    {
+                        ShowCarousel(index);
+                    }
+                }
+            }
+        }
+        private void ShowCarousel(int index)
+        {
+            if (index >= 0 && index < Reci.Directions.Count)
+            {
+                carouselIndex = index;
+                string folder = AppDomain.CurrentDomain.BaseDirectory;
+                string absolutePath = $"{folder}{Reci.Directions[index].ImageName}";
+                var image = new BitmapImage(new Uri(absolutePath, UriKind.Absolute));
+                CarouselImage.Source = image;
+                CarouselPrevBtn.Visibility = index == 0 ? Visibility.Hidden : Visibility.Visible;
+                CarouselNextBtn.Visibility = index == (Reci.Directions.Count - 1) ? Visibility.Hidden : Visibility.Visible;
+                Carousel.Visibility = Visibility.Visible;
+            }
+        }
+
+        private void CarouselCloseBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Carousel.Visibility = Visibility.Hidden;
+        }
     }
 }

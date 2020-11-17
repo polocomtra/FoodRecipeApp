@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FoodRecipeApp.View"
-        xmlns:cef="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf"
+        xmlns:cef="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
         Title="Recipe Detail" Height="600" Width="1024"
         WindowStartupLocation="CenterScreen"
@@ -16,7 +16,7 @@
         <local:AbsoluteConverter x:Key="AbsoluteConverter" />
     </Window.Resources>
     <Grid>
-        <Grid HorizontalAlignment="Left" Width="340" Margin="0,0,0,200">
+        <Grid Panel.ZIndex="1" HorizontalAlignment="Left" Width="340" Margin="0,0,0,200">
             <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" CanContentScroll="False">
                 <StackPanel x:Name="RecipeDetailShow" Width="300">
                     <TextBlock Text="{Binding Name}" TextWrapping="Wrap" FontSize="20" FontWeight="Bold" Margin="0,20,0,20"></TextBlock>
@@ -37,28 +37,25 @@
             </ScrollViewer>
         </Grid>
 
-        <Grid Margin="340,0,0,200" >
+        <Grid Panel.ZIndex="2" Margin="340,0,0,200" >
             <TextBlock Text="Các bước thực hiện:" TextWrapping="Wrap" FontSize="16" FontWeight="Bold" Margin="10,25,0,500"/>
             <ListView x:Name="DirectionsList" ItemsSource="{Binding}" Margin="0,55,0,0"  ScrollViewer.CanContentScroll="False">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Width="625" Orientation="Horizontal" Margin="0,10,0,10">
                             <TextBlock Text="{Binding Instruction}"  TextWrapping="Wrap" TextAlignment="Justify" Width="425"/>
-                            <Image Source="{Binding ImageName, Converter={StaticResource AbsoluteConverter}}" MaxWidth="175" Margin="20,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+                            <Image MouseDown="Image_MouseDown" Source="{Binding ImageName, Converter={StaticResource AbsoluteConverter}}" MaxWidth="175" Margin="20,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
                         </StackPanel>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
         </Grid>
 
-        <Grid VerticalAlignment="Bottom" Height="200">
+        <Grid Panel.ZIndex="3" VerticalAlignment="Bottom" Height="200">
             <Grid x:Name="YTlink" HorizontalAlignment="Left" Width="340">
                 <cef:ChromiumWebBrowser Address="{Binding VideoURL}"></cef:ChromiumWebBrowser>
             </Grid>
             <Grid Margin="340,0,0,0">
-
-
-
                 <ScrollViewer HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Disabled" PreviewMouseWheel="ScrollViewer_PreviewMouseWheel">
                     <ListView x:Name="DirectionsList1" ItemsSource="{Binding}" ScrollViewer.CanContentScroll="False">
 
@@ -91,13 +88,39 @@
 
                         <ListView.ItemTemplate>
                             <DataTemplate>
-                                <Image Source="{Binding ImageName, Converter={StaticResource AbsoluteConverter}}" Style="{StaticResource ScaleStyle}" MaxHeight="150" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                <Image MouseDown="Image_MouseDown" Source="{Binding ImageName, Converter={StaticResource AbsoluteConverter}}" Style="{StaticResource ScaleStyle}" MaxHeight="150" HorizontalAlignment="Center" VerticalAlignment="Center">
                                 </Image>
                             </DataTemplate>
                         </ListView.ItemTemplate>
                     </ListView>
                 </ScrollViewer>
             </Grid>
+        </Grid>
+
+        <Grid x:Name="Carousel" Background="White" Panel.ZIndex="10">
+            <Image x:Name="CarouselImage" RenderOptions.BitmapScalingMode="HighQuality"></Image>
+            <Grid Height="50">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="160"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="160"/>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" Width="60" Height="50"  x:Name="CarouselPrevBtn" Background="White" BorderBrush="{x:Null}" Click="CarouselPrevBtn_Click">
+                    <Button.LayoutTransform>
+                        <ScaleTransform ScaleX="-1">
+                        </ScaleTransform>
+                    </Button.LayoutTransform>
+                    <materialDesign:PackIcon Kind="Arrow" Height="40" Width="25" Foreground="#FF0959A8" />
+                </Button>
+                <Button Grid.Column="2" Width="60" Height="50"  x:Name="CarouselNextBtn" Background="White" BorderBrush="{x:Null}" Click="CarouselNextBtn_Click">
+                    <materialDesign:PackIcon Kind="Arrow" Height="40" Width="25" Foreground="#FF0959A8" />
+                </Button>
+            </Grid>
+            <Canvas>
+                <Button Grid.Column="2" Canvas.Top="50" Canvas.Left="50" Width="60" Height="50"  x:Name="CarouselCloseBtn" Background="White" BorderBrush="{x:Null}" Click="CarouselCloseBtn_Click">
+                    <materialDesign:PackIcon Kind="Close" Height="40" Width="25" Foreground="#FF0959A8" />
+                </Button>
+            </Canvas>
         </Grid>
     </Grid>
 </Window>
