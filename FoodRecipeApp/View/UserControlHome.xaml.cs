@@ -28,7 +28,7 @@ namespace FoodRecipeApp.View
     {
         
         List<Recipe> data = new List<Recipe>();
-        List<Recipe> recipesView =new List<Recipe>();
+        List<Recipe> recipesView = new List<Recipe>();
         //CollectionViewSource view = new CollectionViewSource();
         //ObservableCollection<Recipe> recipes = new ObservableCollection<Recipe>();
         int currentPageIndex = 0;
@@ -38,24 +38,14 @@ namespace FoodRecipeApp.View
         {
             InitializeComponent();
             data = RecipeDAO.GetAll();
-            int itemCount = data.Count;
-            Debug.WriteLine(itemCount);
-            for (int i = 0; i < itemCount; i++)
-            {
-                //recipes.Add(data[i]);
-                recipesView.Add(data[i]);
-            }
-            totalPage = itemCount / itemPerPage;
-            if (itemCount % itemPerPage != 0)
-            {
-                totalPage++;
-            }
+            caclPages(data.Count);
             //view.Source = recipes;
             //view.Filter += new FilterEventHandler(view_Filter);
             //this.recipeList.DataContext = view;
-            ShowCurrentPageIndex();
+            //ShowCurrentPageIndex();
             this.tbTotalPage.Text = totalPage.ToString();
             //recipeList.ItemsSource = data;
+            
             displayRecipes();
             //Debug.WriteLine(currentPageIndex);
             //Debug.WriteLine(recipesView.Count);
@@ -75,19 +65,31 @@ namespace FoodRecipeApp.View
         //    }
         //}
 
+        void caclPages(int itemCount)
+        {
+            totalPage = itemCount / itemPerPage;
+            if (itemCount % itemPerPage != 0)
+            {
+                totalPage++;
+            }
+        }
+
         void displayRecipes()
         {
+            var key = VNCharacterUtils.RemoveAccent(keywordTextBox.Text.Trim().ToLower());
             var skip = currentPageIndex * itemPerPage;
             var take = itemPerPage;
-            var query = from p in data select p;
+            var query = from p in data where IsMatch(p.Name, key) select p;
+            caclPages(query.Count());
             recipesView = query.Skip(skip).Take(take).ToList();
-
             recipeList.ItemsSource = recipesView;
+
+            ShowCurrentPageIndex();
         }
 
         private void ShowCurrentPageIndex()
         {
-            this.currentPage.Text = (currentPageIndex+1).ToString();
+            this.currentPage.Text = totalPage == 0 ? "0/0" : $"{currentPageIndex + 1}/{totalPage}";
         }
 
         private void FavoriteBtn_Click(object sender, RoutedEventArgs e)
@@ -98,11 +100,14 @@ namespace FoodRecipeApp.View
         private void recipeList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             var index = recipeList.SelectedIndex;
-            Debug.WriteLine(index);
-            Recipe r = recipesView[index];
-            var detail = new UserControlDetail(r);
-            detail.Show();
-            detail.Topmost = true;
+            Debug.WriteLine($"{index} {recipesView.Count}");
+            if (index >= 0 && index < recipesView.Count)
+            {
+                Recipe r = recipesView[index];
+                var detail = new UserControlDetail(r);
+                detail.Show();
+                detail.Topmost = true;
+            }
         }
 
         private void keywordTextBox_GotFocus(object sender, RoutedEventArgs e)
@@ -127,7 +132,7 @@ namespace FoodRecipeApp.View
                 displayRecipes();
                 
             }
-            ShowCurrentPageIndex();
+            //ShowCurrentPageIndex();
         }
 
         private void prevBtn_Click(object sender, RoutedEventArgs e)
@@ -139,7 +144,7 @@ namespace FoodRecipeApp.View
                 //view.View.Refresh();
                 displayRecipes();
             }
-            ShowCurrentPageIndex();
+            //ShowCurrentPageIndex();
         }
 
         private void nextBtn_Click(object sender, RoutedEventArgs e)
@@ -151,7 +156,7 @@ namespace FoodRecipeApp.View
                 //view.View.Refresh();
                 displayRecipes();
             }
-            ShowCurrentPageIndex();
+            //ShowCurrentPageIndex();
         }
 
         private void lastBtn_Click(object sender, RoutedEventArgs e)
@@ -162,15 +167,14 @@ namespace FoodRecipeApp.View
                 //view.View.Refresh();
                 displayRecipes();
             }
-            ShowCurrentPageIndex();
+            //ShowCurrentPageIndex();
         }
 
         private async void KeywordTextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            int startLength = keywordTextBox.Text.Length;
-            Debug.WriteLine("Text changed: " + keywordTextBox.Text);
+            string oldKey = keywordTextBox.Text;
             await Task.Delay(250);
-            if (startLength == keywordTextBox.Text.Length)
+            if (!oldKey.Equals(keywordTextBox.Text))
             {
                 Search(keywordTextBox.Text);
             }
@@ -178,20 +182,7 @@ namespace FoodRecipeApp.View
 
         private void Search(string key)
         {
-            if (currentPageIndex != 0)
-            {
-                currentPageIndex = 0;
-                //view.View.Refresh();
-                totalPage = 1;
-            }
-            ShowCurrentPageIndex();
-            var rkey = VNCharacterUtils.RemoveAccent(key.Trim().ToLower());
-            recipesView.Clear();
-            var collection = data.Where(e => IsMatch(e.Name, rkey));
-            foreach (var item in collection)
-            {
-                recipesView.Add(item);
-            }
+            currentPageIndex = 0;
             displayRecipes();
         }
 

@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:FoodRecipeApp.View"
         xmlns:cef="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf"
         mc:Ignorable="d"
-        Title="Recipe Detail" Height="800" Width="1024"
+        Title="Recipe Detail" Height="600" Width="1024"
         WindowStartupLocation="CenterScreen"
         ResizeMode="CanResize">
     <Window.Icon>
