@@ -38,11 +38,13 @@ namespace FoodRecipeApp.View
         private void recipeList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             var index = recipeList.SelectedIndex;
-            Debug.WriteLine(index);
-            Recipe r = data[index];
-            var detail = new UserControlDetail(r);
-            detail.Show();
-            detail.Topmost = true;
+            if (index >= 0 && index < data.Count)
+            {
+                Recipe r = data[index];
+                var detail = new UserControlDetail(r);
+                detail.Show();
+                detail.Topmost = true;
+            }
         }
 
     }

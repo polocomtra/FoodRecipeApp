@@ -7,6 +7,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -132,6 +133,7 @@ namespace FoodRecipeApp.View
                 recipe.Description = DescriptionTextBox.Text;
                 recipe.Ingredients = ingredients.ToList();
                 recipe.Directions = directions.ToList();
+                recipe.Directions.ForEach(d => d.VideoURL = NormalizedYoutubeURL(d.VideoURL));
                 if (RecipeDAO.Insert(recipe))
                 {
                     MessageBox.Show("Đã thêm công thức", "FoodRecipeApp", MessageBoxButton.OK, MessageBoxImage.Information);
@@ -197,6 +199,26 @@ namespace FoodRecipeApp.View
             }
 
             return result;
+        }
+
+        public string NormalizedYoutubeURL(string url)
+        {
+            string result = "https://www.youtube.com/embed/" + GetYouTubeID(url);
+            return result;
+        }
+
+        public string GetYouTubeID(string url)
+        {
+            var regex = @"(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?|watch)\/|.*[?&amp;]v=)|youtu\.be\/)([^""&amp;?\/ ]{11})";
+
+            var match = Regex.Match(url, regex);
+
+            if (match.Success)
+            {
+                return match.Groups[1].Value;
+            }
+
+            return "";
         }
 
         private void DirRemoveButton_Click(object sender, RoutedEventArgs e)

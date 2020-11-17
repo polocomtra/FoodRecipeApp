@@ -29,7 +29,7 @@
 
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <StackPanel>
+                    <StackPanel MinWidth="160">
                         <Image Source="{Binding Image, Converter={StaticResource AbsoluteConverter}}" Width="150" Height="150"></Image>
                         <TextBlock Text="{Binding Name}" FontSize="18" FontWeight="DemiBold" Margin="3"></TextBlock>
                         <ToggleButton

@@ -15,9 +15,9 @@
         FontFamily="{DynamicResource MaterialDesignFont}"
         Title="FoodRecipe" Height="auto" Width="auto" WindowStartupLocation="CenterScreen"  WindowStyle="None" ResizeMode="CanResize">
     <Grid Background="#FFEEEEEE" MouseDown="Grid_MouseDown">
-        <StackPanel VerticalAlignment="Top">
-            <Grid Background="#FF8C00" Height="30" >
-                <TextBlock Text="Food Recipes" FontSize="16"  Foreground="#e6e6e6" Padding="10 5"></TextBlock>
+        <StackPanel VerticalAlignment="Top" Background="#54c797">
+            <Grid Background="#54c797" Height="30" >
+                <TextBlock Text="Food Recipes" FontSize="16"  Foreground="#ffffff" Padding="10 5"></TextBlock>
                 <StackPanel HorizontalAlignment="Right" Orientation="Horizontal" Margin="10 0">
                     <Button x:Name="MinimizeBtn" Width="30" Height="30" Background="{x:Null}" FontWeight="Bold" BorderBrush="{x:Null}" Padding="0" Foreground="#FFFFFF" Margin="0 0 10 0" Click="MinimizeBtn_Click">
                         <materialDesign:PackIcon Kind="WindowMinimize" />
@@ -36,13 +36,13 @@
         </Grid>
         <Grid VerticalAlignment="Top" Panel.ZIndex="1000" HorizontalAlignment="Left" Width="250" Height="100" Margin="0 50">
             <StackPanel Orientation="Horizontal">
-                <Image Margin="10" Source="./Images/mainIcon.jpg" RenderOptions.BitmapScalingMode="HighQuality" Height="100" Width="100" ></Image>
+                <Image Margin="10" Source="appicon.ico" RenderOptions.BitmapScalingMode="HighQuality" ></Image>
 
             </StackPanel>
         </Grid>
-        <Grid HorizontalAlignment="Left" Background="#d9d9d9" Width="250" Margin="0 30 0 0">
+        <Grid HorizontalAlignment="Left" Background="#e6e8e7" Width="250" Margin="0 30 0 0">
             <materialDesign:TransitioningContent x:Name="TransitionContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft,Duration=0:0:0.2}">
-                <Grid x:Name="GridCursor" Margin="0 150 0 0" Width="10" Background="#FF8C00" HorizontalAlignment="Left" Height="60" VerticalAlignment="Top"></Grid>
+                <Grid x:Name="GridCursor" Margin="0 150 0 0" Width="10" Background="#54c797" HorizontalAlignment="Left" Height="60" VerticalAlignment="Top"></Grid>
             </materialDesign:TransitioningContent>
             <ListView x:Name="ListViewMenu" Margin="0 150, 0, 0" FontSize="18" SelectionChanged="ListViewMenu_SelectionChanged" SelectedIndex="0">
                 <ListViewItem Height="60">

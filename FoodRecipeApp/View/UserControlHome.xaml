@@ -17,15 +17,17 @@
             <TextBox x:Name="keywordTextBox" TextChanged="KeywordTextBox_TextChanged" GotFocus="keywordTextBox_GotFocus" LostFocus="keywordTextBox_LostFocus" Background="Transparent" Margin="5" VerticalContentAlignment="center" Padding="32 0 0 0 "></TextBox>
             <materialDesign:PackIcon Kind="Search" VerticalAlignment="Center" Height="32" Width="32" />
         </Grid>
-        <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" Background="#d9d9d9" Height="50">
-            <Button   Width="75" Height="50" Margin="250,5,0,0" Background="#ff944d" VerticalContentAlignment="Center" x:Name="firstBtn" Click="firstBtn_Click">First</Button>
-            <Button   Width="75" Height="50" Margin="20,5,0,0" Background="#ff944d" VerticalContentAlignment="Center" x:Name="prevBtn" Click="prevBtn_Click">Prev</Button>
-            <Button   Width="75" Height="50" Margin="20,5,0,0" Background="#ff944d" VerticalContentAlignment="Center" x:Name="nextBtn" Click="nextBtn_Click">Next</Button>
-            <Button   Width="75" Height="50" Margin="20,5,0,0" Background="#ff944d" VerticalContentAlignment="Center" x:Name="lastBtn" Click="lastBtn_Click">Last</Button>
-            <TextBlock  x:Name="currentPage" FontSize="18" Width="50" Margin="50,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
-            <TextBlock  FontSize="18" Text="/" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
-            <TextBlock  x:Name="tbTotalPage" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" Width="50"></TextBlock>
-        </StackPanel>
+        <Grid DockPanel.Dock="Bottom" Height="45" Background="#e6e8e7">
+            <StackPanel Orientation="Horizontal" Width="550">
+                <Button Style="{StaticResource MaterialDesignRaisedAccentButton}"  Width="75" Height="30" Margin="5,5,0,0"  VerticalContentAlignment="Center" x:Name="firstBtn" Click="firstBtn_Click">First</Button>
+                <Button Style="{StaticResource MaterialDesignRaisedAccentButton}"  Width="75" Height="30" Margin="20,5,0,0" VerticalContentAlignment="Center" x:Name="prevBtn" Click="prevBtn_Click">Prev</Button>
+                <Button Style="{StaticResource MaterialDesignRaisedAccentButton}"  Width="75" Height="30" Margin="20,5,0,0" VerticalContentAlignment="Center" x:Name="nextBtn" Click="nextBtn_Click">Next</Button>
+                <Button Style="{StaticResource MaterialDesignRaisedAccentButton}"  Width="75" Height="30" Margin="20,5,0,0" VerticalContentAlignment="Center" x:Name="lastBtn" Click="lastBtn_Click">Last</Button>
+                <TextBlock  x:Name="currentPage" FontSize="18" Width="55" Margin="50,0,0,0" TextAlignment="Right" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                <TextBlock  FontSize="18" Text="/" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                <TextBlock  x:Name="tbTotalPage" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" Width="50"></TextBlock>
+            </StackPanel>
+        </Grid>
         <ListView x:Name="recipeList" SelectionChanged="recipeList_SelectionChanged" ScrollViewer.HorizontalScrollBarVisibility="Disabled"   HorizontalAlignment="Center" VerticalAlignment="Center">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
@@ -34,7 +36,7 @@
             </ListView.ItemsPanel>
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <StackPanel>
+                    <StackPanel MinWidth="160"  >
                         <Image Source="{Binding Image, Converter={StaticResource AbsoluteConverter}}" Width="130" Height="130"></Image>
                         <TextBlock Text="{Binding Name}" FontSize="18" FontWeight="DemiBold" Margin="3"></TextBlock>
                         <ToggleButton

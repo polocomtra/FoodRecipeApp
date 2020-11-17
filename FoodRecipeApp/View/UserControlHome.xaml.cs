@@ -89,18 +89,12 @@ namespace FoodRecipeApp.View
 
         private void ShowCurrentPageIndex()
         {
-            this.currentPage.Text = totalPage == 0 ? "0/0" : $"{currentPageIndex + 1}/{totalPage}";
+            this.currentPage.Text = totalPage == 0 ? "0" : (currentPageIndex + 1).ToString();
         }
-
-        private void FavoriteBtn_Click(object sender, RoutedEventArgs e)
-        {
-            RecipeDAO.Save(data);
-        } 
 
         private void recipeList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             var index = recipeList.SelectedIndex;
-            Debug.WriteLine($"{index} {recipesView.Count}");
             if (index >= 0 && index < recipesView.Count)
             {
                 Recipe r = recipesView[index];
@@ -109,6 +103,11 @@ namespace FoodRecipeApp.View
                 detail.Topmost = true;
             }
         }
+
+        private void FavoriteBtn_Click(object sender, RoutedEventArgs e)
+        {
+            RecipeDAO.Save(data);
+        } 
 
         private void keywordTextBox_GotFocus(object sender, RoutedEventArgs e)
         {
@@ -191,5 +190,21 @@ namespace FoodRecipeApp.View
             var result = VNCharacterUtils.RemoveAccent(name.ToLower()).Contains(key);
             return result;
         }
+
+        private void recipeList_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            StackPanel panel = sender as StackPanel;
+            if (panel != null)
+            {
+                Recipe recipe = panel.DataContext as Recipe;
+                if (recipe != null)
+                {
+                    var detail = new UserControlDetail(recipe);
+                    detail.Show();
+                    detail.Topmost = true;
+                }
+            }
+        }
+
     }
 }
