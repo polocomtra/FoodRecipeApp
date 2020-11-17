@@ -28,7 +28,7 @@
                 <TextBlock  x:Name="tbTotalPage" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" Width="50"></TextBlock>
             </StackPanel>
         </Grid>
-        <ListView x:Name="recipeList" SelectionChanged="recipeList_SelectionChanged" ScrollViewer.HorizontalScrollBarVisibility="Disabled"   HorizontalAlignment="Center" VerticalAlignment="Center">
+        <ListView x:Name="recipeList" PreviewMouseLeftButtonUp="recipeList_SelectionChanged" ScrollViewer.HorizontalScrollBarVisibility="Disabled"   HorizontalAlignment="Center" VerticalAlignment="Center">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
                     <WrapPanel></WrapPanel>

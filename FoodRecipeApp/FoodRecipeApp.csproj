@@ -65,21 +65,6 @@
     <ApplicationIcon>appicon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CefSharp">
-      <HintPath>..\packages\CefSharp.Common.85.3.130\CefSharp\x86\CefSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="CefSharp.BrowserSubprocess">
-      <HintPath>..\packages\CefSharp.Common.85.3.130\CefSharp\x86\CefSharp.BrowserSubprocess.exe</HintPath>
-    </Reference>
-    <Reference Include="CefSharp.BrowserSubprocess.Core">
-      <HintPath>..\packages\CefSharp.Common.85.3.130\CefSharp\x86\CefSharp.BrowserSubprocess.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="CefSharp.Core">
-      <HintPath>..\packages\CefSharp.Common.85.3.130\CefSharp\x86\CefSharp.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="CefSharp.Wpf">
-      <HintPath>..\packages\CefSharp.Wpf.85.3.130\CefSharp\x86\CefSharp.Wpf.dll</HintPath>
-    </Reference>
     <Reference Include="MaterialDesignColors, Version=1.2.7.1979, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
       <HintPath>..\packages\MaterialDesignColors.1.2.7\lib\net45\MaterialDesignColors.dll</HintPath>
     </Reference>

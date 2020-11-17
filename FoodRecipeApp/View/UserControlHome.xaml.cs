@@ -92,7 +92,7 @@ namespace FoodRecipeApp.View
             this.currentPage.Text = totalPage == 0 ? "0" : (currentPageIndex + 1).ToString();
         }
 
-        private void recipeList_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void recipeList_SelectionChanged(object sender, MouseButtonEventArgs e)
         {
             var index = recipeList.SelectedIndex;
             if (index >= 0 && index < recipesView.Count)

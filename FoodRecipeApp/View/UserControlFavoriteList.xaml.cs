@@ -35,7 +35,7 @@ namespace FoodRecipeApp.View
             RecipeDAO.Save(data);
         }
 
-        private void recipeList_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void recipeList_SelectionChanged(object sender, MouseButtonEventArgs e)
         {
             var index = recipeList.SelectedIndex;
             if (index >= 0 && index < data.Count)

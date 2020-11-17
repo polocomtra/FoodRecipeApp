@@ -11,7 +11,7 @@
         <local:AbsoluteConverter x:Key="AbsoluteConverter" />
     </UserControl.Resources>
     <Grid x:Name="recipeGrid" Background="#fefefe">
-        <ListView x:Name="recipeList" SelectionChanged="recipeList_SelectionChanged" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+        <ListView x:Name="recipeList" PreviewMouseLeftButtonUp="recipeList_SelectionChanged" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
                     <WrapPanel></WrapPanel>
