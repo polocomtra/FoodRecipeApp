@@ -18,15 +18,15 @@
             <materialDesign:PackIcon Kind="Search" VerticalAlignment="Center" Height="32" Width="32" />
         </Grid>
         <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" Background="#d9d9d9" Height="50">
-            <Button  Width="75" Height="50" Margin="100,5,0,0" Background="#ff944d" VerticalContentAlignment="Center" x:Name="firstBtn" Click="firstBtn_Click">First</Button>
-            <Button  Width="75" Height="50" Margin="20,5,0,0" Background="#ff944d" VerticalContentAlignment="Center" x:Name="prevBtn" Click="prevBtn_Click">Prev</Button>
-            <Button  Width="75" Height="50" Margin="20,5,0,0" Background="#ff944d" VerticalContentAlignment="Center" x:Name="nextBtn" Click="nextBtn_Click">Next</Button>
-            <Button  Width="75" Height="50" Margin="20,5,0,0" Background="#ff944d" VerticalContentAlignment="Center" x:Name="lastBtn" Click="lastBtn_Click">Last</Button>
-            <TextBlock x:Name="currentPage" FontSize="18" Width="50" Margin="50,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
-            <TextBlock FontSize="18" Text="/" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
-            <TextBlock x:Name="tbTotalPage" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" Width="50"></TextBlock>
+            <Button   Width="75" Height="50" Margin="250,5,0,0" Background="#ff944d" VerticalContentAlignment="Center" x:Name="firstBtn" Click="firstBtn_Click">First</Button>
+            <Button   Width="75" Height="50" Margin="20,5,0,0" Background="#ff944d" VerticalContentAlignment="Center" x:Name="prevBtn" Click="prevBtn_Click">Prev</Button>
+            <Button   Width="75" Height="50" Margin="20,5,0,0" Background="#ff944d" VerticalContentAlignment="Center" x:Name="nextBtn" Click="nextBtn_Click">Next</Button>
+            <Button   Width="75" Height="50" Margin="20,5,0,0" Background="#ff944d" VerticalContentAlignment="Center" x:Name="lastBtn" Click="lastBtn_Click">Last</Button>
+            <TextBlock  x:Name="currentPage" FontSize="18" Width="50" Margin="50,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            <TextBlock  FontSize="18" Text="/" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            <TextBlock  x:Name="tbTotalPage" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" Width="50"></TextBlock>
         </StackPanel>
-        <ListView x:Name="recipeList" SelectionChanged="recipeList_SelectionChanged" ScrollViewer.HorizontalScrollBarVisibility="Disabled"  ItemsSource="{Binding}">
+        <ListView x:Name="recipeList" SelectionChanged="recipeList_SelectionChanged" ScrollViewer.HorizontalScrollBarVisibility="Disabled"   HorizontalAlignment="Center" VerticalAlignment="Center">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
                     <WrapPanel></WrapPanel>
@@ -35,7 +35,7 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <StackPanel>
-                        <Image Source="{Binding Image, Converter={StaticResource AbsoluteConverter}}" Width="150" Height="150"></Image>
+                        <Image Source="{Binding Image, Converter={StaticResource AbsoluteConverter}}" Width="130" Height="130"></Image>
                         <TextBlock Text="{Binding Name}" FontSize="18" FontWeight="DemiBold" Margin="3"></TextBlock>
                         <ToggleButton
                             x:Name="FavoriteBtn"

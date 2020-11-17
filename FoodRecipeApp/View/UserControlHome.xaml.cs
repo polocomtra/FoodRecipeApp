@@ -28,51 +28,66 @@ namespace FoodRecipeApp.View
     {
         
         List<Recipe> data = new List<Recipe>();
-        CollectionViewSource view = new CollectionViewSource();
-        ObservableCollection<Recipe> recipes = new ObservableCollection<Recipe>();
+        List<Recipe> recipesView =new List<Recipe>();
+        //CollectionViewSource view = new CollectionViewSource();
+        //ObservableCollection<Recipe> recipes = new ObservableCollection<Recipe>();
         int currentPageIndex = 0;
-        int itemPerPage = 6;
+        int itemPerPage = 4;
         int totalPage = 0;
         public UserControlHome()
         {
             InitializeComponent();
-            Debug.WriteLine("init usercontrolhome");
             data = RecipeDAO.GetAll();
             int itemCount = data.Count;
-            for(int i = 0; i < itemCount; i++)
+            Debug.WriteLine(itemCount);
+            for (int i = 0; i < itemCount; i++)
             {
-                recipes.Add(data[i]);
+                //recipes.Add(data[i]);
+                recipesView.Add(data[i]);
             }
             totalPage = itemCount / itemPerPage;
             if (itemCount % itemPerPage != 0)
             {
                 totalPage++;
             }
-            view.Source = recipes;
-            view.Filter += new FilterEventHandler(view_Filter);
-            this.recipeList.DataContext = view;
+            //view.Source = recipes;
+            //view.Filter += new FilterEventHandler(view_Filter);
+            //this.recipeList.DataContext = view;
             ShowCurrentPageIndex();
             this.tbTotalPage.Text = totalPage.ToString();
             //recipeList.ItemsSource = data;
+            displayRecipes();
+            //Debug.WriteLine(currentPageIndex);
+            //Debug.WriteLine(recipesView.Count);
         }
 
-        private void view_Filter(object sender, FilterEventArgs e)
-        {
-            int index = recipes.IndexOf((Recipe)e.Item);
+        //private void view_Filter(object sender, FilterEventArgs e)
+        //{
+        //    int index = recipes.IndexOf((Recipe)e.Item);
 
-            if (index >= itemPerPage * currentPageIndex && index < itemPerPage * (currentPageIndex + 1))
-            {
-                e.Accepted = true;
-            }
-            else
-            {
-                e.Accepted = false;
-            }
+        //    if (index >= itemPerPage * currentPageIndex && index < itemPerPage * (currentPageIndex + 1))
+        //    {
+        //        e.Accepted = true;
+        //    }
+        //    else
+        //    {
+        //        e.Accepted = false;
+        //    }
+        //}
+
+        void displayRecipes()
+        {
+            var skip = currentPageIndex * itemPerPage;
+            var take = itemPerPage;
+            var query = from p in data select p;
+            recipesView = query.Skip(skip).Take(take).ToList();
+
+            recipeList.ItemsSource = recipesView;
         }
 
         private void ShowCurrentPageIndex()
         {
-            this.currentPage.Text = (currentPageIndex + 1).ToString();
+            this.currentPage.Text = (currentPageIndex+1).ToString();
         }
 
         private void FavoriteBtn_Click(object sender, RoutedEventArgs e)
@@ -84,7 +99,7 @@ namespace FoodRecipeApp.View
         {
             var index = recipeList.SelectedIndex;
             Debug.WriteLine(index);
-            Recipe r = data[index];
+            Recipe r = recipesView[index];
             var detail = new UserControlDetail(r);
             detail.Show();
             detail.Topmost = true;
@@ -108,27 +123,33 @@ namespace FoodRecipeApp.View
             if (currentPageIndex != 0)
             {
                 currentPageIndex = 0;
-                view.View.Refresh();
+                //view.View.Refresh();
+                displayRecipes();
+                
             }
             ShowCurrentPageIndex();
         }
 
         private void prevBtn_Click(object sender, RoutedEventArgs e)
         {
+            Debug.WriteLine(currentPageIndex);
             if (currentPageIndex > 0)
             {
                 currentPageIndex--;
-                view.View.Refresh();
+                //view.View.Refresh();
+                displayRecipes();
             }
             ShowCurrentPageIndex();
         }
 
         private void nextBtn_Click(object sender, RoutedEventArgs e)
         {
+            
             if (currentPageIndex < totalPage - 1)
             {
                 currentPageIndex++;
-                view.View.Refresh();
+                //view.View.Refresh();
+                displayRecipes();
             }
             ShowCurrentPageIndex();
         }
@@ -138,7 +159,8 @@ namespace FoodRecipeApp.View
             if (currentPageIndex != totalPage - 1)
             {
                 currentPageIndex = totalPage - 1;
-                view.View.Refresh();
+                //view.View.Refresh();
+                displayRecipes();
             }
             ShowCurrentPageIndex();
         }
@@ -147,7 +169,7 @@ namespace FoodRecipeApp.View
         {
             int startLength = keywordTextBox.Text.Length;
             Debug.WriteLine("Text changed: " + keywordTextBox.Text);
-            await Task.Delay(150);
+            await Task.Delay(250);
             if (startLength == keywordTextBox.Text.Length)
             {
                 Search(keywordTextBox.Text);
@@ -159,16 +181,18 @@ namespace FoodRecipeApp.View
             if (currentPageIndex != 0)
             {
                 currentPageIndex = 0;
-                view.View.Refresh();
+                //view.View.Refresh();
+                totalPage = 1;
             }
             ShowCurrentPageIndex();
             var rkey = VNCharacterUtils.RemoveAccent(key.Trim().ToLower());
-            recipes.Clear();
+            recipesView.Clear();
             var collection = data.Where(e => IsMatch(e.Name, rkey));
             foreach (var item in collection)
             {
-                recipes.Add(item);
+                recipesView.Add(item);
             }
+            displayRecipes();
         }
 
         private bool IsMatch(string name, string key)
